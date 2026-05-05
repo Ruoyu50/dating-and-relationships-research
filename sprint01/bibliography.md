@@ -1,0 +1,1 @@
+Statista. "Dating Services - Worldwide". 2026. Statista.
