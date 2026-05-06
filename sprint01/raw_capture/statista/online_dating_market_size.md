@@ -16,16 +16,17 @@
 - Publication: February 2023
 - Time window: 2017–2030 (forecast)
 - Market structure:
-Dating Services
-├── Online Dating
-├── Casual Dating
-└── Matchmaking
+  ```text
+  └── Dating Services
+      ├── Online Dating
+      ├── Casual Dating
+      └── Matchmaking
+  ```
 - Bibliography: Statista. "Dating Services - Worldwide". 2026. Statista.
 
 ---
 
-#### Page 1 — Parent: Dating Services (Worldwide)
-- URL: https://www.statista.com/outlook/emo/dating-services/worldwide
+#### Page 1 — Parent: [Dating Services (Worldwide)](https://www.statista.com/outlook/emo/dating-services/worldwide)
 
 ##### Chart 01 — dating-services revenue (stacked column + line, 同组数据)
 - Q: 这个 sector 的总规模有多大？三子市场各占多少？比例随时间怎么变？
@@ -51,8 +52,7 @@ Dating Services
 
 ---
 
-#### Page 2 — Child: Online Dating (Worldwide)
-- URL: https://www.statista.com/outlook/emo/dating-services/online-dating/worldwide
+#### Page 2 — Child: [Online Dating (Worldwide)](https://www.statista.com/outlook/emo/dating-services/online-dating/worldwide)
 
 ##### Chart 03 — online-dating revenue (line)
 - Q: OD 这个最大子市场的增长曲线是什么形状？
@@ -74,8 +74,7 @@ Dating Services
 
 ---
 
-#### Page 3 — Child: Casual Dating (Worldwide)
-- URL: https://www.statista.com/outlook/emo/dating-services/casual-dating/worldwide
+#### Page 3 — Child: [Casual Dating (Worldwide)](https://www.statista.com/outlook/emo/dating-services/casual-dating/worldwide)
 
 ##### Chart 06 — casual-dating revenue (line)
 - Q: CD 子市场的增长曲线是什么形状？和 OD/M 比怎样？
@@ -88,8 +87,7 @@ Dating Services
 
 ---
 
-#### Page 4 — Child: Matchmaking (Worldwide)
-- URL: https://www.statista.com/outlook/emo/dating-services/matchmaking/worldwide
+#### Page 4 — Child: [Matchmaking (Worldwide)](https://www.statista.com/outlook/emo/dating-services/matchmaking/worldwide)
 
 ##### Chart 07 — matchmaking revenue (line)
 - Q: M 子市场的增长曲线是什么形状？和 OD/CD 比怎样？
