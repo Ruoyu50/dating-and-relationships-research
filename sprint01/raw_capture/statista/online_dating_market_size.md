@@ -11,7 +11,7 @@
 
 ## Captured
 
-### Research: Dating Services — market data & analysis
+### Research: Dating Services: market data & analysis
 - Type: Statista Market Insights report
 - Publication: February 2023
 - Time window: 2017–2030 (forecast)
