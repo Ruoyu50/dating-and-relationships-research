@@ -12,8 +12,9 @@
 ## Captured
 
 ### Dating Services
-- Type: Statista Market Insights report
-- Publication: February 2023
+- Type: Statista Market Insights
+- Publication: July 01 2025
+- Most recent update: Apr 2026
 - Time window: 2017–2030 (forecast)
 - Market structure:
   ```text
@@ -22,7 +23,6 @@
       ├── Casual Dating
       └── Matchmaking
   ```
-- Bibliography: Statista. "Dating Services - Worldwide". 2026. Statista.
 
 ---
 
