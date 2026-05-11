@@ -1,4 +1,4 @@
-### Source 3: UN World Urbanization Prospects 2018 (Key Facts)
+### UN World Urbanization Prospects 2018 (Key Facts)
 **文档类型：** 全球城市化展望报告（2018 修订版）
 **预测窗口：** 至 2050 年
 

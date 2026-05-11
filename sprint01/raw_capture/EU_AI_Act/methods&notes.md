@@ -1,4 +1,4 @@
-### Source 4: EU Artificial Intelligence Act (Selected Articles)
+### EU Artificial Intelligence Act (Selected Articles)
 **文档类型：** 欧盟 AI 法案（2024/1689 规章）
 **实施时间：** 2025 - 2026 年（全面生效）
 

@@ -1,4 +1,4 @@
-### Source 2: IPCC AR6 Synthesis Report (Summary for Policymakers)
+### IPCC AR6 Synthesis Report (Summary for Policymakers)
 **文档类型：** 气候变化综合报告（SPM）
 **时间窗口：** 2041-2060（中期窗口，涵盖 2046）
 

@@ -1,10 +1,4 @@
-以下是针对您提供的四个原始研究文档进行的详细Documentation分析。
-
-这些分析严格基于文档内容，旨在为 **Dating and Relationships** 行业提供 2046 年场景构建的底层证据，符合未来研究中对 Mega Driver（宏观驱动力）和趋势记录的标准。
-
----
-
-### Source 1: UN World Population Prospects 2024 (CSV Data)
+### UN World Population Prospects 2024 (CSV Data)
 **文档类型：** 联合国人口预测数据库（WPP 2024）
 **时间跨度分析：** 2026 - 2046
 
