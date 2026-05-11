@@ -1,46 +1,43 @@
+### mega drivers
 Opening (15 sec, ~30 词):
 
-"Our team's research went beyond surface trends to identify five mega drivers shaping dating in 2046. I'll focus on the two that gave us our cone framework: climate and regulation."
+"We started by asking what really shapes dating — not just current trends, but the deeper forces that will define what dating means in 2046. We found five. I want to walk you through the two that gave us our cone framework: climate and regulation."
 
-Climate driver (25 sec, ~70 词):
+Environment driver (25 sec, ~75 词):
 
-"IPCC AR6 doesn't give one climate future—it gives five. Warming by century's end ranges from 1.4°C under aggressive mitigation to 4.4°C under continued high emissions. These SSP scenarios are themselves a cone of plausibility, mapping directly onto our preferred, projected, and preposterous futures. Climate isn't backdrop—it determines whether 2046 dating happens in livable cities or in 200 days of dangerous heat."
+"Climate change doesn't give us one future. It gives us five. IPCC's AR6 lays out five emission pathways — warming by 2081 ranges from 1.4°C if we mitigate aggressively, to 4.4°C if we don't. These five scenarios aren't backdrop. They are themselves a cone of plausibility — and they map directly onto our preferred, projected, and preposterous futures. Whether 2046 dating happens in livable cities or under 200 days of dangerous heat — that's a choice we're making right now."
 
-Political driver (25 sec, ~70 词):
+Political driver (25 sec, ~75 词):
 
-"The EU AI Act, fully implemented by August 2026, prohibits AI from exploiting user vulnerabilities—not just by design intent, but by effect. This means dating algorithms that exploit loneliness are legally exposed, even unintentionally. Through the Brussels Effect, this standard propagates globally—or doesn't. Whether it does separates our preferred future from our projected one."
+"Regulation is the counter-force most futures research forgets. The EU AI Act, fully in effect by August 2026, doesn't just require AI to disclose itself. Article 5(1)(b) prohibits AI from exploiting human vulnerabilities — not just by design intent, but by effect. That means dating algorithms profiting off loneliness are legally exposed, even unintentionally. Whether this standard spreads through the Brussels Effect, or fragments into a patchwork — that single question separates our preferred future from our projected one."
 
-Handoff (10 sec, ~30 词):
+Handoff (10 sec, ~25 词):
 
-"These drivers don't predict a single 2046. They define the variables. Each cone takes different values of these variables and asks: what world does this create? Sophie will now walk you through how our artifact lives in one of these worlds."
-
-
+"These drivers don't predict a single 2046. They give us the variables. Our three cones take different values of these variables and ask: what world does each create?"
 
 
 
 
 
 
+
+### cone
 Opening (10 sec, ~25 词):
 
-"Using these mega drivers, we built three scenarios — projected, preferred, and preposterous — each grounded in different values of the same variables."
+"Same drivers, different values, different worlds. Let me walk you through the three 2046s we mapped."
 
 Projected (25 sec, ~70 词):
 
-"Projected 2046 — The Tiered World. The dating industry consolidated into four global platforms after the 2030 revenue wall. In Brussels, Article 50 forces AI to disclose itself. In Lagos, Delhi, Dhaka — where the largest user base now lives — AI companions speak without disclosure. Premium immersive services exist for the affluent, but remain niche commercial products. Loneliness hasn't been solved. It's been segmented by income and jurisdiction."
+"Our projected 2046 is the world today's trends take us to. After the 2030 revenue wall, four global platforms run dating, tiered by income and jurisdiction. In Brussels, every AI conversation announces itself. In Lagos, Delhi, Dhaka — where most users now live — AI companions speak without disclosure. A Berlin professional pays €200 a month for verified human interaction; a Mumbai user gets free AI matching. Loneliness hasn't been solved. It's been segmented."
 
 Preferred (25 sec, ~70 词):
 
-"Preferred 2046 — The Care Commons. Three things had to happen: Brussels Effect propagating to 38 countries, governments reclassifying chronic loneliness as public health, and climate stabilizing at 1.8°C. Care Commons opened in every district — neighborhood spaces blending café, guided social rooms, regulated immersive environments. Romance didn't become a public service. The conditions that make romance possible did."
+"Our preferred 2046 — what we'd want if we got it right — needed three things to happen together. The EU's regulatory standards spread to 38 countries. Governments reclassified chronic loneliness as public health infrastructure. Climate stabilized at 1.8°C. Care Commons opened in every neighborhood — part café, part guided social space, part regulated immersive room. Romance didn't become a public service. But the conditions that make romance possible — time, stability, trust, places to meet — did."
 
-Preposterous (25 sec, ~70 词):
+Preposterous (30 sec, ~80 词):
 
-"Preposterous 2046 — The Two-Tier World, triggered by our wildcard: the Companion Wars of 2034-35, when whistleblowers exposed AI companion platforms engineering emotional dependency. Forty-eight countries passed emergency legislation. By 2046, the dating economy splits cleanly: 12% regulated, 88% gray market. A 19-year-old in Manila pays $4 a month for an AI girlfriend that has memorized her insecurities better than her family. She knows it's AI. She doesn't care."
+"Our preposterous 2046 begins with our wildcard — the Companion Wars of 2034. Whistleblowers expose AI companies engineering emotional dependency. Forty-eight countries pass emergency laws within six months. Twelve years later, dating splits in two: 12% regulated, 88% gray market. A 19-year-old in Manila pays $4 a month for an AI girlfriend that knows her better than her family. She knows it's AI. She doesn't care. The alternative — loneliness in a 35-million-person megacity, under 200 days of dangerous heat — is worse."
 
 Reveal (10 sec, ~25 词):
 
-"What this preposterous cone reveals is not a fear of technology. It is a fear that intimacy becomes a luxury good."
-
-Handoff (5 sec, ~15 词):
-
-"Sophie will now show you how our artifact lives in one of these worlds."
+"What this last scenario reveals isn't a fear of technology. It's a fear that intimacy becomes a luxury good — and that we let it happen."

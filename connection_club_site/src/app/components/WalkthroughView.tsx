@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
+import { ChevronLeft, ChevronRight, MapPin, Glasses } from 'lucide-react';
 
 const rooms = [
   {
@@ -49,6 +49,7 @@ const rooms = [
 
 export default function WalkthroughView() {
   const [currentRoom, setCurrentRoom] = useState(0);
+  const [parallax, setParallax] = useState({ x: 0, y: 0 });
 
   const goToNext = () => {
     setCurrentRoom((prev) => (prev + 1) % rooms.length);
@@ -56,6 +57,22 @@ export default function WalkthroughView() {
 
   const goToPrevious = () => {
     setCurrentRoom((prev) => (prev - 1 + rooms.length) % rooms.length);
+  };
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === 'ArrowRight') goToNext();
+      else if (e.key === 'ArrowLeft') goToPrevious();
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, []);
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = (e.clientX - rect.left) / rect.width - 0.5;
+    const y = (e.clientY - rect.top) / rect.height - 0.5;
+    setParallax({ x, y });
   };
 
   const room = rooms[currentRoom];
@@ -68,7 +85,7 @@ export default function WalkthroughView() {
       className="size-full flex flex-col"
     >
       {/* Main Render View */}
-      <div className="flex-1 relative overflow-hidden">
+      <div className="flex-1 relative overflow-hidden" onMouseMove={handleMouseMove}>
         <AnimatePresence mode="wait">
           <motion.div
             key={room.id}
@@ -83,10 +100,13 @@ export default function WalkthroughView() {
               <img
                 src={room.image}
                 alt={room.name}
-                className="size-full object-cover"
+                className="size-full object-cover transition-transform duration-200 ease-out"
+                style={{
+                  transform: `translate(${parallax.x * -24}px, ${parallax.y * -24}px) scale(1.06)`,
+                }}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
-              <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-black/60" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
+              <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black via-black/70 to-transparent pointer-events-none" />
             </div>
 
             {/* 3D Perspective Overlay Elements */}
@@ -112,14 +132,14 @@ export default function WalkthroughView() {
                     initial={{ y: 100, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.5 }}
-                    className="absolute right-20 bottom-32 w-64 h-96 bg-gradient-to-bl from-purple-500/10 to-transparent border-r-2 border-t-2 border-purple-500/30 backdrop-blur-sm"
+                    className="absolute right-20 bottom-32 w-64 h-96 bg-gradient-to-bl from-cyan-500/10 to-transparent border-r-2 border-t-2 border-cyan-500/30 backdrop-blur-sm"
                     style={{ transform: 'rotateY(-20deg) translateZ(50px)' }}
                   >
                     <div className="p-6 text-right">
-                      <div className="w-16 h-16 rounded-full bg-purple-500/20 flex items-center justify-center mb-4 ml-auto">
-                        <div className="w-8 h-8 rounded-full bg-purple-400" />
+                      <div className="w-16 h-16 rounded-full bg-cyan-500/20 flex items-center justify-center mb-4 ml-auto">
+                        <div className="w-8 h-8 rounded-full bg-cyan-400" />
                       </div>
-                      <div className="text-sm text-purple-300">Security Check</div>
+                      <div className="text-sm text-cyan-300">Security Check</div>
                     </div>
                   </motion.div>
                 </>
@@ -130,18 +150,18 @@ export default function WalkthroughView() {
                   initial={{ scale: 0, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   transition={{ delay: 0.3, duration: 0.8 }}
-                  className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full border-4 border-purple-500/30"
+                  className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full border-4 border-cyan-500/30"
                 >
                   <motion.div
-                    className="absolute inset-0 rounded-full border-4 border-purple-500"
+                    className="absolute inset-0 rounded-full border-4 border-cyan-500"
                     animate={{ rotate: 360 }}
                     transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
                     style={{ borderTopColor: 'transparent', borderLeftColor: 'transparent' }}
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center">
-                      <div className="text-6xl font-bold text-purple-400 mb-2">3D</div>
-                      <div className="text-sm text-purple-300">SCANNING IN PROGRESS</div>
+                      <div className="text-6xl font-bold text-cyan-400 mb-2">3D</div>
+                      <div className="text-sm text-cyan-300">SCANNING IN PROGRESS</div>
                     </div>
                   </div>
                 </motion.div>
@@ -155,7 +175,7 @@ export default function WalkthroughView() {
                       initial={{ x: -100, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ delay: 0.2 + i * 0.1 }}
-                      className="absolute w-32 h-40 bg-gradient-to-br from-purple-900/60 to-slate-900/80 border-2 border-purple-500/40 rounded-xl"
+                      className="absolute w-32 h-40 bg-gradient-to-br from-cyan-900/60 to-slate-900/80 border-2 border-cyan-500/40 rounded-xl"
                       style={{
                         left: `${15 + i * 10}%`,
                         top: `${30 + i * 15}%`,
@@ -163,7 +183,7 @@ export default function WalkthroughView() {
                       }}
                     >
                       <div className="size-full p-3 flex flex-col items-center justify-center">
-                        <div className="w-3 h-3 rounded-full bg-purple-400 mb-2 animate-pulse" />
+                        <div className="w-3 h-3 rounded-full bg-cyan-400 mb-2 animate-pulse" />
                         <div className="text-xs">POD {i + 1}</div>
                       </div>
                     </motion.div>
@@ -196,39 +216,15 @@ export default function WalkthroughView() {
                     initial={{ y: -100, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.3 }}
-                    className="absolute left-1/2 top-20 -translate-x-1/2 w-80 h-64 bg-gradient-to-br from-purple-900/80 to-slate-900/90 border-2 border-purple-500/50 rounded-2xl backdrop-blur-sm"
+                    className="absolute left-1/2 top-20 -translate-x-1/2 w-80 h-64 bg-gradient-to-br from-cyan-900/80 to-slate-900/90 border-2 border-cyan-500/50 rounded-2xl backdrop-blur-sm"
                     style={{ transform: 'translateX(-50%) rotateX(20deg) translateZ(100px)' }}
                   >
                     <div className="size-full p-6 flex flex-col items-center justify-center">
-                      <div className="w-32 h-32 rounded-full bg-purple-500/20 border-4 border-purple-500/40 flex items-center justify-center mb-4">
-                        <div className="text-4xl">🥽</div>
+                      <div className="w-32 h-32 rounded-full bg-cyan-500/20 border-4 border-cyan-500/40 flex items-center justify-center mb-4">
+                        <Glasses className="w-12 h-12 text-cyan-200" />
                       </div>
                       <div className="text-sm font-semibold">VR Headset Ready</div>
                       <div className="text-xs text-gray-400 mt-1">8K Resolution</div>
-                    </div>
-                  </motion.div>
-                  <motion.div
-                    initial={{ y: 100, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.5 }}
-                    className="absolute left-1/4 bottom-20 w-48 h-32 bg-gradient-to-br from-cyan-900/80 to-slate-900/90 border-2 border-cyan-500/50 rounded-xl backdrop-blur-sm"
-                    style={{ transform: 'rotateY(-15deg) translateZ(50px)' }}
-                  >
-                    <div className="size-full p-4 flex flex-col items-center justify-center">
-                      <div className="text-2xl mb-2">🎧</div>
-                      <div className="text-xs font-semibold">Spatial Audio</div>
-                    </div>
-                  </motion.div>
-                  <motion.div
-                    initial={{ y: 100, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.6 }}
-                    className="absolute right-1/4 bottom-20 w-48 h-32 bg-gradient-to-br from-pink-900/80 to-slate-900/90 border-2 border-pink-500/50 rounded-xl backdrop-blur-sm"
-                    style={{ transform: 'rotateY(15deg) translateZ(50px)' }}
-                  >
-                    <div className="size-full p-4 flex flex-col items-center justify-center">
-                      <div className="text-2xl mb-2">🧤</div>
-                      <div className="text-xs font-semibold">Sensory Suit</div>
                     </div>
                   </motion.div>
                 </>
@@ -283,7 +279,7 @@ export default function WalkthroughView() {
                 onClick={() => setCurrentRoom(index)}
                 className={`flex-1 h-2 rounded-full transition-all ${
                   index === currentRoom
-                    ? 'bg-gradient-to-r from-cyan-500 to-purple-500'
+                    ? 'bg-cyan-500'
                     : index < currentRoom
                     ? 'bg-gray-600'
                     : 'bg-gray-800'

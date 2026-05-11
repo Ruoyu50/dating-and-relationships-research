@@ -27,7 +27,7 @@ export default function PodArea() {
           animate={{ y: 0, opacity: 1 }}
           className="mb-12"
         >
-          <h2 className="text-4xl font-bold mb-3 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-3 text-white">
             VR Immersion Pod Area
           </h2>
           <p className="text-gray-400">State-of-the-art pods with full sensory immersion technology.</p>
@@ -52,8 +52,9 @@ export default function PodArea() {
                     key={pod.id}
                     initial={{ scale: 0, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
+                    whileHover={{ scale: 1.06, transition: { duration: 0.2 } }}
                     transition={{ delay: 0.1 * index, duration: 0.5 }}
-                    className="absolute"
+                    className="absolute cursor-pointer"
                     style={{
                       left: pod.position.x,
                       top: pod.position.y,
@@ -62,12 +63,12 @@ export default function PodArea() {
                     }}
                   >
                     {/* Pod Shell */}
-                    <div className={`w-40 h-44 rounded-2xl border-2 transition-all ${
+                    <div className={`w-40 h-44 rounded-2xl border transition-colors ${
                       pod.status === 'active'
-                        ? 'bg-gradient-to-br from-purple-900/80 to-pink-900/80 border-purple-500/50 shadow-2xl shadow-purple-500/30'
+                        ? 'bg-cyan-900/40 border-cyan-500/50 shadow-2xl shadow-cyan-500/20'
                         : pod.status === 'available'
-                        ? 'bg-gradient-to-br from-emerald-900/60 to-slate-900/80 border-emerald-500/50 shadow-xl shadow-emerald-500/20'
-                        : 'bg-gradient-to-br from-slate-900/60 to-slate-800/80 border-slate-600/50 shadow-xl'
+                        ? 'bg-cyan-900/15 border-cyan-500/25'
+                        : 'bg-slate-900/40 border-slate-700/50'
                     }`}>
                       {/* Pod Interior */}
                       <div className="size-full p-4 flex flex-col items-center justify-between">
@@ -75,9 +76,9 @@ export default function PodArea() {
                         <div className="w-full flex items-center justify-between">
                           <span className="text-xs font-mono opacity-50">POD-{String(pod.id).padStart(2, '0')}</span>
                           <Circle className={`w-2 h-2 ${
-                            pod.status === 'active' ? 'fill-purple-400 text-purple-400' :
-                            pod.status === 'available' ? 'fill-emerald-400 text-emerald-400' :
-                            'fill-gray-500 text-gray-500'
+                            pod.status === 'active' ? 'fill-cyan-400 text-cyan-400' :
+                            pod.status === 'available' ? 'fill-cyan-400/50 text-cyan-400/50' :
+                            'fill-slate-500 text-slate-500'
                           }`} />
                         </div>
 
@@ -85,29 +86,32 @@ export default function PodArea() {
                         <div className="relative w-20 h-20 rounded-xl bg-black/40 border border-white/10 overflow-hidden">
                           {pod.status === 'active' && (
                             <>
-                              <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-pink-500/20" />
                               <motion.div
-                                className="absolute inset-0 bg-gradient-to-t from-purple-500/30 to-transparent"
+                                className="absolute inset-0 bg-gradient-to-t from-cyan-500/30 to-transparent"
                                 animate={{ opacity: [0.3, 0.7, 0.3] }}
                                 transition={{ duration: 2, repeat: Infinity }}
                               />
-                              <Eye className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 text-purple-300" />
+                              <Eye className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 text-cyan-300" />
                             </>
                           )}
                           {pod.status === 'available' && (
-                            <div className="size-full flex items-center justify-center text-emerald-500 text-xs">
+                            <div className="size-full flex items-center justify-center text-cyan-300/70 text-xs">
                               READY
                             </div>
                           )}
                           {pod.status === 'maintenance' && (
-                            <div className="size-full flex items-center justify-center text-gray-500 text-xs">
+                            <div className="size-full flex items-center justify-center text-slate-500 text-xs">
                               MAINT
                             </div>
                           )}
                         </div>
 
                         {/* Status */}
-                        <div className="text-xs font-semibold uppercase">
+                        <div className={`text-xs font-semibold uppercase ${
+                          pod.status === 'active' ? 'text-cyan-200' :
+                          pod.status === 'available' ? 'text-cyan-200/60' :
+                          'text-slate-400'
+                        }`}>
                           {pod.status}
                         </div>
                       </div>
@@ -116,7 +120,7 @@ export default function PodArea() {
                     {/* Glow Effect for Active Pods */}
                     {pod.status === 'active' && (
                       <motion.div
-                        className="absolute inset-0 rounded-2xl bg-purple-500/20 blur-xl -z-10"
+                        className="absolute inset-0 rounded-2xl bg-cyan-500/15 blur-xl -z-10"
                         animate={{ opacity: [0.3, 0.6, 0.3] }}
                         transition={{ duration: 2, repeat: Infinity }}
                       />
@@ -129,16 +133,16 @@ export default function PodArea() {
 
           {/* Status Legend */}
           <div className="absolute top-6 right-6 flex flex-col gap-2">
-            <div className="flex items-center gap-2 text-xs">
-              <Circle className="w-3 h-3 fill-purple-400 text-purple-400" />
+            <div className="flex items-center gap-2 text-xs text-gray-300">
+              <Circle className="w-3 h-3 fill-cyan-400 text-cyan-400" />
               <span>Active (6)</span>
             </div>
-            <div className="flex items-center gap-2 text-xs">
-              <Circle className="w-3 h-3 fill-emerald-400 text-emerald-400" />
+            <div className="flex items-center gap-2 text-xs text-gray-300">
+              <Circle className="w-3 h-3 fill-cyan-400/50 text-cyan-400/50" />
               <span>Available (2)</span>
             </div>
-            <div className="flex items-center gap-2 text-xs">
-              <Circle className="w-3 h-3 fill-gray-500 text-gray-500" />
+            <div className="flex items-center gap-2 text-xs text-gray-300">
+              <Circle className="w-3 h-3 fill-slate-500 text-slate-500" />
               <span>Maintenance (1)</span>
             </div>
           </div>
@@ -149,34 +153,34 @@ export default function PodArea() {
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.8 }}
-          className="grid grid-cols-4 gap-6"
+          className="grid grid-cols-4 gap-10"
         >
-          <div className="bg-gradient-to-br from-purple-900/40 to-slate-900/40 p-6 rounded-xl border border-purple-500/30">
-            <div className="w-12 h-12 rounded-full bg-purple-500/20 flex items-center justify-center mb-4">
-              <Eye className="w-6 h-6 text-purple-400" />
+          <div>
+            <div className="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center mb-5">
+              <Eye className="w-6 h-6 text-cyan-400" />
             </div>
             <h3 className="font-semibold mb-2">VR Headset</h3>
             <p className="text-sm text-gray-400">8K resolution per eye, 120° field of view</p>
           </div>
 
-          <div className="bg-gradient-to-br from-pink-900/40 to-slate-900/40 p-6 rounded-xl border border-pink-500/30">
-            <div className="w-12 h-12 rounded-full bg-pink-500/20 flex items-center justify-center mb-4">
-              <Activity className="w-6 h-6 text-pink-400" />
+          <div>
+            <div className="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center mb-5">
+              <Activity className="w-6 h-6 text-cyan-400" />
             </div>
             <h3 className="font-semibold mb-2">Sensory Suit</h3>
             <p className="text-sm text-gray-400">Full haptic feedback and temperature control</p>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-900/40 to-slate-900/40 p-6 rounded-xl border border-blue-500/30">
-            <div className="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center mb-4">
-              <Headphones className="w-6 h-6 text-blue-400" />
+          <div>
+            <div className="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center mb-5">
+              <Headphones className="w-6 h-6 text-cyan-400" />
             </div>
             <h3 className="font-semibold mb-2">Spatial Audio</h3>
             <p className="text-sm text-gray-400">360° surround sound with bone conduction</p>
           </div>
 
-          <div className="bg-gradient-to-br from-cyan-900/40 to-slate-900/40 p-6 rounded-xl border border-cyan-500/30">
-            <div className="w-12 h-12 rounded-full bg-cyan-500/20 flex items-center justify-center mb-4">
+          <div>
+            <div className="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center mb-5">
               <Wifi className="w-6 h-6 text-cyan-400" />
             </div>
             <h3 className="font-semibold mb-2">Neural Link</h3>
@@ -189,7 +193,7 @@ export default function PodArea() {
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 1 }}
-          className="mt-8 p-8 bg-black/40 backdrop-blur-sm rounded-2xl border border-white/10"
+          className="mt-12 pt-8 border-t border-white/10"
         >
           <h3 className="text-xl font-semibold mb-6">Pod Specifications</h3>
           <div className="grid grid-cols-3 gap-8">

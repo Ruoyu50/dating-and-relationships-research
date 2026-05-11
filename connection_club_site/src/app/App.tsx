@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ScanFace, Users, Wifi, Shield, ChevronRight, Eye, Grid3x3, Camera } from 'lucide-react';
+import { Users, Wifi, Eye, Grid3x3, Camera } from 'lucide-react';
 import FacilityView from './components/FacilityView';
 import ReceptionArea from './components/ReceptionArea';
 import PodArea from './components/PodArea';
@@ -31,7 +31,7 @@ export default function App() {
           <div className="flex gap-4">
             <button
               onClick={() => setCurrentView('walkthrough')}
-              className={`px-4 py-2 rounded-lg transition-all ${
+              className={`px-4 py-2 rounded-lg transition-colors ${
                 currentView === 'walkthrough'
                   ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/50'
                   : 'bg-white/5 hover:bg-white/10'
@@ -42,7 +42,7 @@ export default function App() {
             </button>
             <button
               onClick={() => setCurrentView('overview')}
-              className={`px-4 py-2 rounded-lg transition-all ${
+              className={`px-4 py-2 rounded-lg transition-colors ${
                 currentView === 'overview'
                   ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/50'
                   : 'bg-white/5 hover:bg-white/10'
@@ -53,7 +53,7 @@ export default function App() {
             </button>
             <button
               onClick={() => setCurrentView('reception')}
-              className={`px-4 py-2 rounded-lg transition-all ${
+              className={`px-4 py-2 rounded-lg transition-colors ${
                 currentView === 'reception'
                   ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/50'
                   : 'bg-white/5 hover:bg-white/10'
@@ -64,7 +64,7 @@ export default function App() {
             </button>
             <button
               onClick={() => setCurrentView('pods')}
-              className={`px-4 py-2 rounded-lg transition-all ${
+              className={`px-4 py-2 rounded-lg transition-colors ${
                 currentView === 'pods'
                   ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/50'
                   : 'bg-white/5 hover:bg-white/10'
@@ -86,45 +86,6 @@ export default function App() {
           {currentView === 'pods' && <PodArea key="pods" />}
         </AnimatePresence>
       </div>
-
-      {/* Floating Info Cards */}
-      <motion.div
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ delay: 0.5 }}
-        className="absolute bottom-8 left-8 bg-black/40 backdrop-blur-md border border-white/10 rounded-xl p-6 max-w-sm"
-      >
-        <div className="flex items-start gap-4">
-          <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center flex-shrink-0">
-            <Shield className="w-6 h-6" />
-          </div>
-          <div>
-            <h3 className="font-semibold mb-1">Secure & Private</h3>
-            <p className="text-sm text-gray-400">
-              All members undergo background checks and in-person interviews before accessing facilities.
-            </p>
-          </div>
-        </div>
-      </motion.div>
-
-      <motion.div
-        initial={{ opacity: 0, x: 50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ delay: 0.7 }}
-        className="absolute bottom-8 right-8 bg-black/40 backdrop-blur-md border border-white/10 rounded-xl p-6 max-w-sm"
-      >
-        <div className="flex items-start gap-4">
-          <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0">
-            <ScanFace className="w-6 h-6" />
-          </div>
-          <div>
-            <h3 className="font-semibold mb-1">Full Immersion</h3>
-            <p className="text-sm text-gray-400">
-              Full-body scans, sensory suits, and surround sound create the most realistic experience possible.
-            </p>
-          </div>
-        </div>
-      </motion.div>
     </div>
   );
 }
