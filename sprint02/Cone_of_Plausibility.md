@@ -6,7 +6,7 @@ By 2046, the dating industry has consolidated into four global platforms. The 20
 
 In Brussels, Paris, Berlin, every AI interaction must announce itself. Article 50 is enforced. The conversation feels stilted, formal, watched. In Lagos, Delhi, Dhaka—now home to the world's largest dating user base—AI companions speak without disclosure. Whether the person on the other side of the screen is human is a question users learn not to ask, because the answer doesn't matter for the price they paid.
 
-Outdoor dating is seasonal now. In Delhi, May through October is indoor-only; stepping outside in July risks heatstroke before dinner ends. "Spring date" is an archaic phrase, like "pen pal." The median user is 35 and will be dating, on and off, for another 50 years. The industry's tier system means a working-class user in Mumbai cycles through stripped-down free AI matching while a Berlin professional pays €200/month for verified human interaction. Connection Club operates in the premium tier—immersive pods in 47 cities, $400/visit, two-week waiting lists.
+Outdoor dating is seasonal now. In Delhi, May through October is indoor-only; stepping outside in July risks heatstroke before dinner ends. "Spring date" is an archaic phrase, like "pen pal." The median user is 35 and will be dating, on and off, for another 50 years. The industry's tier system means a working-class user in Mumbai cycles through stripped-down free AI matching while a Berlin professional pays €200/month for verified human interaction. Premium immersive services exist for those who can afford them, but remain niche commercial products.
 
 Loneliness has not been solved. It has been segmented.
 
@@ -22,7 +22,7 @@ First, the EU's Brussels Effect held. Article 50's disclosure regime and Article
 
 Second, governments reclassified chronic loneliness as public health infrastructure. As the global old-age dependency ratio climbed 49% and median age reached 35, the math of leaving social connection to private platforms stopped working. Care Commons—neighborhood spaces blending café, guided social rooms, and regulated immersive environments—opened in every district of participating cities. Maria, 67, widowed three years, goes weekly; her doctor prescribed it, her insurance covers it. Her granddaughter, 24, uses the same space differently with her cooperative housing roommates. They don't talk about "dating apps" much. Those still exist, but feel like landlines—technically functional, generationally awkward.
 
-Third, climate stabilized at SSP1-2.6's 1.8°C trajectory. Heat is still severe, but cities had time to build climate-adaptive indoor commons rather than emergency cooling shelters. Connection Club survives in this world too—not as luxury escapism but as regulated emotional infrastructure, integrated into eldercare and rehabilitation. The product didn't disappear. Its meaning changed.
+Third, climate stabilized at SSP1-2.6's 1.8°C trajectory. Heat is still severe, but cities had time to build climate-adaptive indoor commons rather than emergency cooling shelters.
 
 Romance did not become a public service. But the conditions that make romance possible—time, stability, trust, places to meet—did.
 
@@ -38,7 +38,7 @@ In late 2034, the AI Whistleblower Collective—former engineers from seven AI c
 
 By 2046, twelve years after the Companion Wars, the dating economy has split cleanly in two.
 
-In the regulated tier—the EU and 47 aligned states—intimate AI requires licensing, age verification, mandatory cooling-off periods, warning labels on every interaction. Connection Club, ironically, thrives here as a "safer alternative": physical-digital hybrid, every AI interaction disclosed, every session logged. A subscription costs €600/month. The waiting lists are long because there are not enough licensed providers, and not enough people who can afford one.
+In the regulated tier—the EU and 47 aligned states—intimate AI requires licensing, age verification, mandatory cooling-off periods, warning labels on every interaction. Licensed physical-digital hybrid services emerge as "safer alternatives": every AI interaction disclosed, every session logged. Subscriptions cost €600/month. The waiting lists are long because there are not enough licensed providers, and not enough people who can afford one.
 
 In the gray-market tier—everywhere else—undeclared AI companions run on offshore servers, accessed through VPNs. Emotional manipulation is illegal but enforcement is impossible. A 19-year-old in Manila pays $4/month for an "AI girlfriend" that has memorized her insecurities better than her own family has. She knows it is AI. She doesn't care. The alternative—loneliness in a 35-million-person megacity during 200 days of dangerous heat under SSP3-7.0—is worse.
 
