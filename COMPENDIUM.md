@@ -87,7 +87,9 @@ The current market is consolidated around a small number of holding groups (Matc
 
 ## 4. SIGNALS: WHAT THE DATA IS TELLING US
 
-From our Sprint 1 raw capture, six signals shaped our cone:
+From our Sprint 1 raw capture, **sixteen signals across five independent data sources** shaped our scenarios. Each signal pairs an observed fact with a strategic interpretation. Full source citations in §15.
+
+### 4.1 Statista — Dating Services Market (Signals 1–6)
 
 | # | Signal | What It Tells Us |
 |---|---|---|
@@ -96,9 +98,41 @@ From our Sprint 1 raw capture, six signals shaped our cone:
 | 3 | ARPU declining across all subsectors, M fastest | The premium serious-matchmaking model is in collapse. |
 | 4 | OD ARPU declining post-2021 rebound | Users grow, money does not. Paywalls failing. |
 | 5 | Statista forecast locks in a "wall" 2027–2030 | The industry's own data admits stagnation by 2030. |
-| 6 | Subsector share migration is small (4–7pp / 13yr) | The future of dating will not be "OD replaces M." It will be something else entirely. |
+| 6 | Subsector share migration is small (4–7pp / 13 yr) | The future of dating will not be "OD replaces M." It will be something else entirely. |
 
-**Strategic conclusion for our scenario work:** The 2027–2030 revenue wall is a *forcing event*. By 2046, the industry we know cannot still be running. Something has to replace it — or take it over.
+### 4.2 UN World Population Prospects 2024 (Signals 7–8)
+
+| # | Signal | What It Tells Us |
+|---|---|---|
+| 7 | Global median age 31.10 (2026) → 35.21 (2046) | Dating is no longer a one-window 20–35 pursuit. The product logic optimized for that window is structurally mismatched with reality. |
+| 8 | Old-age dependency ratio +49% (16.24 → 24.20) | Working-age populations face longer dating lifespans under heavier care burden — what Monica called *"four relationships in a 120-year lifespan"* approaches lived reality. |
+
+### 4.3 IPCC AR6 Synthesis Report SPM (Signals 9–11)
+
+| # | Signal | What It Tells Us |
+|---|---|---|
+| 9 | Five SSP scenarios (1.4 °C → 4.4 °C by 2081–2100) | IPCC has effectively pre-drawn the cone framework — SSP1-1.9/2.6 = preferred, SSP2-4.5 = projected, SSP3-7.0/5-8.5 = preposterous. |
+| 10 | 150–300 dangerous heat-humidity days/yr under 2.4–3.1 °C warming | Outdoor social space compresses. Indoor/mediated dating shifts from preference to structural necessity. |
+| 11 | 3.3–3.6 billion people in highly vulnerable contexts; ongoing climate displacement | "Same-city" assumptions dissolve. Long-distance and cross-regional relationship structures become dominant patterns. |
+
+### 4.4 UN World Urbanization Prospects 2018 (Signals 12–13)
+
+| # | Signal | What It Tells Us |
+|---|---|---|
+| 12 | Global urban share 55% (2018) → 68% (2050); +2.5 B urban residents | The user base migrates rather than shrinks. Growth = Global South megacities, not saturated Western markets. |
+| 13 | India +416 M, China +255 M, Nigeria +189 M urban residents by 2050; 43 megacities by 2030 | Future dominant users live in Lagos, Delhi, Dhaka. Western product assumptions (language, individual-choice paradigm, payment, design) face structural mismatch. |
+
+### 4.5 EU AI Act — Regulation 2024/1689 (Signals 14–16)
+
+| # | Signal | What It Tells Us |
+|---|---|---|
+| 14 | Article 50: mandatory AI / emotion-recognition / deepfake disclosure | The "AI partner indistinguishable from a human" product category becomes legally untenable in EU jurisdiction. |
+| 15 | Article 5(1)(b): exploitation of vulnerabilities prohibited by *effect*, not just intent | Engagement-on-loneliness algorithms are legally exposed even without manipulative intent. The "we didn't mean to" defense is gone. |
+| 16 | Brussels Effect (Bradford, 2020): historical pattern of EU-as-de-facto-global-standard | The single variable that separates our preferred future from our projected future. If the Effect holds, 38+ countries align. If it fragments, the EU stays an island. |
+
+### 4.6 Strategic Conclusion
+
+The 2027–2030 revenue wall (Signals 1, 5) is a **forcing event**. By 2046, the dating industry we know cannot still be running. The question our scenarios answer is: *what replaces it*. Demographics (7–8) tell us the user has aged and stratified. Climate (9–11) tells us the venue has moved indoors. Urbanization (12–13) tells us the user has moved south. Regulation (14–16) tells us the rules will be written — but by whom, and how widely, is the single variable separating Care Commons from gray-market Manila.
 
 ---
 
@@ -453,7 +487,9 @@ The artifact is intentionally seductive. The discomfort is meant to come not fro
 
 ### Legal/Regulatory Source
 
-**European Union.** *Regulation (EU) 2024/1689 of the European Parliament and of the Council Laying Down Harmonised Rules on Artificial Intelligence (Artificial Intelligence Act).* Official Journal of the European Union, 2024. Articles 5, 6, 27, 50. (Used for: AI prohibitions, transparency obligations, FRIA, Brussels Effect projections.)
+**European Union.** *Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 Laying Down Harmonised Rules on Artificial Intelligence (Artificial Intelligence Act).* Official Journal of the European Union, 2024. Articles 5, 6, 27, 50. https://artificialintelligenceact.eu/. (Used for: AI prohibitions, transparency obligations, FRIA, regulatory floor for AI-mediated intimacy.)
+
+**Bradford, A.** *The Brussels Effect: How the European Union Rules the World.* Oxford: Oxford University Press, 2020. (Used for: the historical pattern by which EU regulation propagates globally as de facto standard; the variable that separates our preferred and projected cones.)
 
 ### Framework Source
 
