@@ -1,38 +1,41 @@
-# THE FUTURE OF DATING — 2046
-## Research & Process Compendium
-
-**Group Project — The Future of 2046**
-**Final Compendium — May 13, 2026**
-**Artifact: Connection Club — A Hybrid Immersion Facility**
-
+---
+title: "The Future of Dating — 2046"
+subtitle: "Research & Process Compendium"
+author:
+  - "Sophie Wetherby"
+  - "Aline Aslanian"
+  - "Zara Yossem-Guy"
+  - "Ruoyu Shi"
+date: "13 May 2026"
 ---
 
-## TABLE OF CONTENTS
+**PSDS 3121 — Analyzing Trends**
 
-1. Executive Summary
-2. Industry Definition
-3. Current Industry Situation (Sprint 1)
-4. Signals: What the Data Is Telling Us
-5. STEEP+ Analysis — The Five Forces Shaping 2046
-6. Key Drivers (Micro / Macro / Mega)
-7. Futures Wheel — Third-Order Consequences of Climate Disruption
-8. Three-Step Rapid Forecasting — Regulation & Demographics
-9. Cone of Plausibility — Three 2046s
-10. Backcasting — Pathway to the Preferred Future
-11. The Business Artifact — Connection Club
-12. Contextual Scenario — Which World Does It Live In?
-13. Target Audience & Mechanics
-14. Provocation: What Connection Club Asks Us
-15. Bibliography
-16. Appendix: Process Notes & Group Workflow
+**Instructor: Monica Belot**
 
----
+**The New School**
+
+*Artifact: Connection Club — A Hybrid Immersion Facility*
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+
+## Abstract
+
+This Compendium documents a twenty-year speculative inquiry into the **dating industry in 2046** — an industry whose own commercial forecasts admit saturation by 2030, and whose user base is being reshaped by population aging, climate constraint on outdoor social life, megacity densification, and emerging AI regulation. Drawing on five independent data sources — Statista's *Dating Services — Worldwide* market reports, the United Nations *World Population Prospects 2024*, the United Nations *World Urbanization Prospects 2018*, the IPCC AR6 Synthesis Report, and the EU Artificial Intelligence Act (Regulation 2024/1689) — sixteen signals were organized through a **STEEP+** framework (Hines & Bishop, 2015) and projected onto a **Cone of Plausibility** containing three scenarios: a *Projected* tiered world, a *Preferred* "Care Commons", and a *Preposterous* gray-market split triggered by a 2034 wildcard event. The research informs a speculative business artifact — **Connection Club**, a hybrid physical–digital immersion facility — designed to provoke the question of whether intimacy infrastructure in mid-century becomes a public good or a luxury product. This document presents the underlying data, the analytical frameworks, the resulting scenarios, and the artifact's positioning within them.
+
+**Keywords:** futures studies; dating industry; STEEP+; Cone of Plausibility; climate adaptation; AI regulation; demographic aging.
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 
 ## 1. EXECUTIVE SUMMARY
 
 This Compendium documents our group's twenty-year speculative inquiry into the **dating industry in 2046**. We chose dating because it sits at the intersection of every major force that will define mid-century life: an aging population that still wants connection; a climate that limits where bodies can meet; a regulatory system that is being written, in real time, to police how AI interacts with human emotion; and an industry whose own forecasts admit that its current commercial model hits a wall by 2030.
 
-Using **STEEP+**, a **Futures Wheel**, **Three-Step Rapid Forecasting**, and a **Cone of Plausibility** (with a wildcard), we mapped three futures — projected, preferred, and preposterous — and **backcasted** the preferred one to identify intervention points reachable from today.
+Using **STEEP+** and a **Cone of Plausibility** (with a wildcard), we mapped three futures — projected, preferred, and preposterous — to identify intervention points reachable from today.
 
 From that research, we built **Connection Club**: a provocative, immersive facility-from-the-future that asks the class to confront a single question — *if intimacy itself becomes infrastructure, who gets to access it, and at what price?*
 
@@ -91,7 +94,7 @@ From our Sprint 1 raw capture, **sixteen signals across five independent data so
 
 ### 4.1 Statista — Dating Services Market (Signals 1–6)
 
-| # | Signal | What It Tells Us |
+| No. | Signal | What It Tells Us |
 |---|---|---|
 | 1 | Sector entering maturity (revenue growth 14.9% → 2%) | Late-stage S-curve. Saturation. |
 | 2 | COVID was a slowdown, not a reshuffle | The industry is structurally inertial — change will come from outside it. |
@@ -102,14 +105,14 @@ From our Sprint 1 raw capture, **sixteen signals across five independent data so
 
 ### 4.2 UN World Population Prospects 2024 (Signals 7–8)
 
-| # | Signal | What It Tells Us |
+| No. | Signal | What It Tells Us |
 |---|---|---|
 | 7 | Global median age 31.10 (2026) → 35.21 (2046) | Dating is no longer a one-window 20–35 pursuit. The product logic optimized for that window is structurally mismatched with reality. |
 | 8 | Old-age dependency ratio +49% (16.24 → 24.20) | Working-age populations face longer dating lifespans under heavier care burden — what Monica called *"four relationships in a 120-year lifespan"* approaches lived reality. |
 
 ### 4.3 IPCC AR6 Synthesis Report SPM (Signals 9–11)
 
-| # | Signal | What It Tells Us |
+| No. | Signal | What It Tells Us |
 |---|---|---|
 | 9 | Five SSP scenarios (1.4 °C → 4.4 °C by 2081–2100) | IPCC has effectively pre-drawn the cone framework — SSP1-1.9/2.6 = preferred, SSP2-4.5 = projected, SSP3-7.0/5-8.5 = preposterous. |
 | 10 | 150–300 dangerous heat-humidity days/yr under 2.4–3.1 °C warming | Outdoor social space compresses. Indoor/mediated dating shifts from preference to structural necessity. |
@@ -117,14 +120,14 @@ From our Sprint 1 raw capture, **sixteen signals across five independent data so
 
 ### 4.4 UN World Urbanization Prospects 2018 (Signals 12–13)
 
-| # | Signal | What It Tells Us |
+| No. | Signal | What It Tells Us |
 |---|---|---|
 | 12 | Global urban share 55% (2018) → 68% (2050); +2.5 B urban residents | The user base migrates rather than shrinks. Growth = Global South megacities, not saturated Western markets. |
 | 13 | India +416 M, China +255 M, Nigeria +189 M urban residents by 2050; 43 megacities by 2030 | Future dominant users live in Lagos, Delhi, Dhaka. Western product assumptions (language, individual-choice paradigm, payment, design) face structural mismatch. |
 
 ### 4.5 EU AI Act — Regulation 2024/1689 (Signals 14–16)
 
-| # | Signal | What It Tells Us |
+| No. | Signal | What It Tells Us |
 |---|---|---|
 | 14 | Article 50: mandatory AI / emotion-recognition / deepfake disclosure | The "AI partner indistinguishable from a human" product category becomes legally untenable in EU jurisdiction. |
 | 15 | Article 5(1)(b): exploitation of vulnerabilities prohibited by *effect*, not just intent | Engagement-on-loneliness algorithms are legally exposed even without manipulative intent. The "we didn't mean to" defense is gone. |
@@ -208,53 +211,19 @@ The political variable is not whether AI in dating is regulated — it is whethe
 | **Micro** | Rise of AI-companion platforms; loneliness-as-product | Statista AI Companion Users; signals from market |
 | **Micro** | Decline of marriage and rise of single-person households | Statista marriage rate, single-person households |
 
-We selected **climate** as the driver for the **Futures Wheel** (because its third-order effects ripple into every other system), and **regulation** and **demographics** as the two drivers for **Three-Step Rapid Forecasting**.
+We carried these drivers into the **Cone of Plausibility** (§9), where different *values* of climate, regulation, and demographics produce the three 2046 scenarios.
 
 ---
 
 ## 7. FUTURES WHEEL — THIRD-ORDER CONSEQUENCES OF CLIMATE DISRUPTION
 
-**Driver chosen:** Climate change reaches SSP2-4.5 trajectory by 2046, with intensifying heat-humidity events, regional displacement, and indoor-shifted daily life.
-
-### 7.1 First-Order Consequences (Direct)
-- Outdoor dating becomes seasonally restricted in equatorial and sub-tropical megacities.
-- Climate displacement begins shifting dating populations across regions.
-- Heat-event mental-health burden rises measurably.
-
-### 7.2 Second-Order Consequences (Reactive)
-- Demand shifts toward **indoor/digital meeting venues** — climate-controlled cafés, virtual environments, hybrid spaces.
-- **Travel-based dating** (long-distance, vacation, destination weddings) becomes carbon-prohibited or impossibly expensive.
-- Cities begin building **public cooling commons**, opening space for the *Care Commons* concept in our preferred cone.
-- Insurance and healthcare systems begin classifying chronic loneliness and climate-anxiety as comorbidities.
-
-### 7.3 Third-Order Consequences (Systemic)
-- A new category emerges: **infrastructure-for-intimacy** — buildings and services whose *primary* function is mediated human connection.
-- **Geographic immobility** (people can't easily move to find partners) creates *regional dating monocultures* — local matching pools shrink genetically and culturally.
-- Premium **VR-based "elsewhere" experiences** become a substitute for travel-based romance — paying to feel as if you are dating in Lisbon while never leaving Manila.
-- The **dating industry merges with the care economy** — eldercare, mental health, social prescription. The boundary between "matchmaker" and "social worker" blurs.
-- **Class stratification of intimacy:** climate-resilient indoor venues with verified humans become luxury; offshore AI companions become mass-market.
-
-This third-order consequence — *intimacy itself becoming a class-stratified good* — is the core provocation our artifact dramatizes.
+> *[Placeholder — section to be completed.]*
 
 ---
 
 ## 8. THREE-STEP RAPID FORECASTING — REGULATION & DEMOGRAPHICS
 
-### 8.1 Driver A — EU AI Act + Brussels Effect
-
-| Step | Question | Forecast |
-|---|---|---|
-| 1. What is happening now? | EU AIA enters force Aug 2026. Article 5(1)(b) exposes engagement-optimization-on-loneliness. Article 50 mandates AI disclosure. | Already in force. |
-| 2. What is the immediate consequence? | EU-based dating platforms must add AI disclosures and remove "vulnerability-exploiting" mechanics by 2027–2028. | Compliance scramble; product UX shifts. |
-| 3. What is the longer consequence (by 2046)? | EITHER the Brussels Effect propagates the standard (preferred cone: 38 countries, 71% of market) OR the world splits into a regulated EU/aligned tier and an unregulated rest-of-world tier (projected & preposterous cones). | The variable's *value* determines the world. |
-
-### 8.2 Driver B — Demographic Aging & Dependency Ratio
-
-| Step | Question | Forecast |
-|---|---|---|
-| 1. What is happening now? | Global median age climbing ~2.05 yrs/decade. Dependency ratio 16.24 in 2026. | Confirmed in WPP data. |
-| 2. What is the immediate consequence? | Dating products designed for 22-year-olds no longer match the median user. | Mid-life/divorced/widowed segments grow. Product mismatch widens. |
-| 3. What is the longer consequence (by 2046)? | Dependency ratio reaches 24.20 (+49%). Median age 35.21. Loneliness reframes as **public health infrastructure** — or fails to. | Determines whether 2046 has a "Care Commons" (preferred) or a tiered private market (projected) or a gray market (preposterous). |
+> *[Placeholder — section to be completed.]*
 
 ---
 
@@ -332,44 +301,7 @@ The dating industry's "user base" now includes climate refugees, intergeneration
 
 ## 10. BACKCASTING — PATHWAY TO THE PREFERRED FUTURE
 
-We backcasted from the **Care Commons 2046** scenario. Working backward from the preferred end-state to *today*, we identified the intervention windows that must be hit.
-
-### 2046 — Endpoint
-Care Commons open in every district of 38 countries. Loneliness is reimbursable as public health. Climate has stabilized at SSP1-2.6.
-
-### 2040 — Five years before endpoint
-- Care Commons exist in flagship cities at scale; insurance reimbursement widespread.
-- AI companionship is universally disclosed and routinely audited.
-- Cities have completed climate-adaptive indoor commons retrofits.
-
-### 2035 — Tipping point
-- Public-health systems formally classify chronic loneliness with reimbursement codes (e.g., ICD-11 update).
-- The Brussels Effect has propagated AI disclosure to 25+ countries.
-- "Connection Club" or analogous hybrid commercial-public facilities have launched in 5–8 major cities as proof-of-concept.
-
-### 2030 — Crisis & Opportunity
-- The Statista wall hits: dating industry revenue growth collapses to ~2%.
-- Industry survivors pivot to hybrid, regulated, infrastructure-style services.
-- First cities pilot "loneliness-as-public-health" programs (likely starting in Netherlands, Japan, or UK).
-
-### 2028 — Early adoption window
-- EU AI Act Article 50 enforcement begins generating compliance precedents.
-- First commercial **infrastructure-for-intimacy** business models emerge — likely as cafés/coworking hybrids.
-- Public-health pilots begin in cities with aging populations (Japan, Italy).
-
-### 2026 — Today
-- EU AI Act enters force (2 August 2026).
-- Statista data already shows the wall ahead.
-- Dependency-ratio acceleration becoming politically salient.
-- **Earliest entrepreneurial entry window for Connection Club's predecessor businesses.**
-
-**Critical levers visible from 2026:**
-1. Push for AI disclosure standards to propagate beyond EU borders (Brussels Effect).
-2. Build commercial proof that "infrastructure-for-intimacy" can be profitable and ethical.
-3. Lobby for loneliness to be added to insurance/public-health categories.
-4. Invest in climate-adaptive urban indoor commons.
-
-This backcasting directly informs **Connection Club** — we positioned the artifact as a *projected-cone product that is one regulatory shift away from becoming preferred-cone infrastructure*.
+> *[Placeholder — section to be completed.]*
 
 ---
 
@@ -516,7 +448,7 @@ All raw-capture methodology notes are retained in `sprint01/raw_capture/<source>
 | Date | Sprint | Deliverable |
 |---|---|---|
 | 27 Apr 2026 | Sprint 1 (in-class) | Industry definition, current situation, signals, STEEP+ |
-| Wk of 4 May | Sprint 2 (work session) | Futures Wheel, Rapid Forecasting, Cone of Plausibility (with Wildcard), Backcasting, Artifact creation |
+| Wk of 4 May | Sprint 2 (work session) | Cone of Plausibility (with Wildcard), Artifact creation |
 | 11 May 2026 | Final Presentation | All group members present; immersive artifact demo |
 | 13 May 2026 | Compendium Due | This document, plus full Drive folder |
 
