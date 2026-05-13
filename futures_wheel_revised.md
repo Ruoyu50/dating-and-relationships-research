@@ -1,63 +1,52 @@
-# Futures Wheel — Analysis & Revised Structure
+# Futures Wheel — Revised Analysis
 
-*Driver under analysis: the breakdown of app-mediated dating as the dominant connection channel.*
+## Driver — Reframed
 
-## 1. Branch-by-branch analysis
+The Miro driver, *"People no longer use dating apps or technology to form connections,"* is framed as a cultural/value choice and therefore reads as speculation. The methodology-compliant version restates it as a **structural extinction of the engagement-optimized swipe-app model (2027–2034)**, jointly forced by three observable trends already in our Bibliography: (i) Statista's *Dating Services — Worldwide* (2023/2026) revenue-wall and ARPU collapse, (ii) EU AIA Article 5(1)(b)'s "by effect" vulnerability standard exposing engagement-optimization to enforcement, and (iii) UN WPP 2024 demographic shift (median age 35.21, OADR +49% by 2046) breaking the 20–35 product assumption. The driver is no longer a value statement — it is the extrapolation of three independently sourced trends to a common collapse point.
 
-The existing wheel was built around the center "People no longer use dating apps or technology to form connections." That center is unsourced and unidirectional: Statista's data shows users still grow through 2030 — what collapses is **monetization** and **engagement-optimization legitimacy**, not usage. The driver is therefore reframed as the **breakdown of the app-mediated model** under three convergent pressures: Statista's 2027–2030 revenue wall (Signals 1, 5), EU AIA Article 5(1)(b)'s "by effect" vulnerability standard (Signal 15), and UN WPP's demographic mismatch with 20–35 product logic (Signals 7–8).
+## Branch-by-Branch Analysis
 
 | Branch (current text) | Layer | Issue | Source anchor | Cone | Action |
 |---|---|---|---|---|---|
-| People rely on in-person interactions | 1st | Linear; ignores AI-companion alternative | — | Preferred | **REWRITE** — split into two competing branches (in-person revival vs. AI-companion migration) |
-| Loss of algorithmic filtering & efficiency | 1st | Linear; framed as mood-shift, not regulatory event | EU AIA Art. 5(1)(b); Statista ARPU | Preferred; Projected | **REWRITE** — "Engagement-optimization algorithms become legally exposed under Art. 5(1)(b); paywall economics fail under ARPU collapse" |
-| Social/physical environments become central | 1st | Linear; ignores climate constraint on outdoor venues | IPCC AR6 SPM.3; UN WUP 2018 | Projected; Preferred | **REWRITE** — "Hybrid physical-digital venues replace pure-online dating; climate forces venues indoors" |
-| Cultural shift toward authentic, unmediated | 1st | Aspirational; not derivable from any bibliography source | none | — | **REMOVE** — replace with sourced UX-shift branch (below) |
-| Increased vulnerability / reliance on social skills | 2nd | Speculative behavioral claim; not grounded | — | — | **REMOVE** |
-| People meet outside their usual "type"; harder for introverted/marginalized | 2nd | Partially plausible; not grounded | — | — | **REWRITE** — "Verified-human matching emerges as compliance market; non-mediated meeting disadvantages introverted/marginalized users → demand for designed-meeting venues" |
-| Rise of intentionally designed social spaces (cafés, lounges) | 2nd | Correct direction; missing climate/density grounding | IPCC AR6 SPM.3; UN WUP 2018 | Projected; Preferred | **REWRITE** — "Climate-controlled commercial connection venues emerge (Connection Club typology); public-cooperative commons emerge in Brussels-aligned jurisdictions" |
-| Less control over first impressions; slower relationships | 2nd | Linear behavioral claim; no source | — | — | **REMOVE** — replace with cultural/regulatory backlash branch (below) |
-| Stronger, more intentional relationships | 3rd | Aspirational; intensified-2nd-order; not category-creating | — | — | **REMOVE** |
-| Increased social anxiety or avoidance | 3rd | Intensified behavior; not systemic restructuring | IPCC AR6 A.2.5 (weak) | — | **REMOVE** (fold into public-health branch) |
-| Social inequality increases based on access | 3rd | Right direction; not yet category-creating | UN WUP 2018; IPCC AR6 | Projected; Preposterous | **REWRITE** → category-creating form: **"Intimacy infrastructure becomes a public-goods question"** |
-| Connection depends on location, privilege, social networks | 3rd | Overlaps prior branch | overlap | overlap | **MERGE** into the public-goods branch |
-| Interior design / architecture shapes connection | 3rd | Domain-specific; belongs at 2nd-order (designed venues), not systemic | — | Projected | **DEMOTE** — fold into 2nd-order designed-venues branch |
-| Raises philosophical question: natural vs designed | 3rd | Philosophical, not analytical; this is the artifact's provocation | — | — | **REMOVE** from wheel — already lives in §2.9 |
+| People rely on in-person interactions to form relationships | 1st | Linear extrapolation; ignores IPCC AR6 outdoor-venue constraint and UN WUP megacity compression | IPCC AR6 SPM Fig SPM.3; UN WUP 2018 | Preferred (only where indoor commons exist) | Rewrite |
+| Loss of algorithmic filtering and efficiency in dating | 1st | Logically derived but mechanism (regulatory) is missing | EU AIA Art. 5(1)(b); Statista AI Companion App Users | Projected / Preferred (bifurcates) | Rewrite |
+| Social and physical environments become central to connection | 1st | Methodologically incomplete; venues are themselves climate-conditioned and unevenly distributed | UN WUP 2018; IPCC AR6 | All three (different values) | Rewrite |
+| Cultural shift toward authentic and unmediated relationships | 1st | Linear/values-driven; ignores class stratification of "authenticity" in §2.3.1 and §2.3.3 | Compendium §2.3.1, §2.3.3 | Projected + Preposterous | Rewrite |
+| Increased vulnerability / reliance on social skills | 2nd | Individual-psychological framing, not systemic | Compendium §1.4.2, §2.2 demographics row | Preferred | Rewrite (→ loneliness-as-public-health) |
+| People meet outside their "type"; harder for introverted/marginalized | 2nd | Partly linear; latent systemic frame is recoverable | EU AIA Art. 27 FRIA; Bradford 2020 | Preferred vs. Projected (bifurcates) | Rewrite |
+| Rise of intentionally designed social spaces; circulation, visibility, chance encounters | 2nd | Names the design move but not the funding mechanism | IPCC AR6 adaptation budgets; Compendium §2.4 backcasting | Preferred | Keep + rewrite |
+| Less control over first impressions; relationships form slowly/unpredictably | 2nd | Pure UX/individual framing; not systemic | — | — | **Remove** |
+| Stronger, more intentional relationships | 3rd | Intensified 2nd-order, not category-creating | — | — | **Remove** |
+| Increased social anxiety or avoidance | 3rd | Individual-psychological; not systemic restructuring | — | — | **Remove** |
+| Social inequality increases based on access to spaces and communities | 3rd | Category-creating in spirit; needs sharper formulation tied to §2.3 cones | Compendium §2.3.1, §2.3.3; UN WUP 2018 | Projected + Preposterous | Rewrite |
+| Connection becomes dependent on location, privilege, social networks | 3rd | Duplicates inequality branch above | — | — | **Merge** with rewritten inequality branch |
+| Interior design and architecture actively shape how people connect | 3rd | Architectural; not yet political. Reframe as public-goods question | Compendium §2.1, §2.5 | All three (the differentiator) | Rewrite |
+| Raises questions about whether connection is natural or influenced by design | 3rd | Philosophical, not systemic | — | — | **Remove** |
+| — | 3rd | Missing: care-economy merger driven by OADR + loneliness-as-public-health | UN WPP 2024; Compendium §2.2 | Preferred | **Add** |
+| — | 3rd | Missing: Brussels Effect as the global market bifurcator | Bradford 2020; EU AIA | Projected ↔ Preferred fork | **Add** |
+| — | 3rd | Missing: aviation collapse compresses intimacy to intra-regional only | IPCC AR6 SSP3-7.0; Compendium §2.7 | Preposterous | **Add** |
 
-**Branches to ADD** (per Monica's two requirements — regulatory/cultural backlash at 2nd order, category-creating restructuring at 3rd order):
+## Proposed Revised Wheel Structure
 
-- **2nd-order:** "Regulatory backlash against engagement-optimization → Article 5(1)(b) enforcement actions" (EU AIA).
-- **2nd-order:** "Cultural backlash against AI mediation → premium 'verified-human' product tier" (Statista AI Companion App Users; ARPU divergence).
-- **2nd-order:** "Dating-product UX is forced to redesign for the 35+ median user" (UN WPP 2024).
-- **3rd-order:** "Dating industry merges with the care / public-health economy" (UN WPP dependency-ratio surge + EU regulatory frame) → **Preferred (Care Commons)**.
-- **3rd-order:** "Bifurcation into licensed regulated tier vs. gray-market substitute tier" (Brussels Effect fragmentation; Companion Wars wildcard) → **Preposterous (Two-Tier World)**.
-- **3rd-order:** "AI companionship becomes default for some demographics; human-mediated romance becomes a premium product" (Statista AI Companion App Users + ARPU collapse) → **Projected (Tiered World)**.
+**Center (driver).** *The engagement-optimized swipe-app model collapses, 2027–2034.* Jointly forced by Statista's revenue wall + ARPU decline (commercial), EU AIA Art. 5(1)(b) "by effect" enforcement against engagement-optimization (regulatory), and UN WPP 2024 demographic shift breaking the 20–35 product window (demographic).
 
----
+**1st-order — Direct consequences.**
+1. **Indoor commerce re-platforms as adaptation infrastructure** — outdoor "default" venues are seasonally inaccessible in the highest-growth markets (IPCC AR6 SPM.3; UN WUP 2018).
+2. **Engagement-optimization filtering becomes legally exposed** — EU AIA Art. 5(1)(b) makes attachment-loop UX a compliance risk; compliant matching emerges only in Brussels-aligned jurisdictions.
+3. **Physical venues become contested infrastructure** — *who builds, owns, and regulates climate-safe venues* moves from cultural backwater to political question.
+4. **"Authenticity" stratifies into a class marker** — outdoor unmediated dating is preserved for the mobile and wealthy; everyone else navigates regulated or gray-market mediated intimacy (Compendium §2.3.1, §2.3.3).
 
-## 2. Proposed revised wheel structure (Figma-reproducible)
+**2nd-order — Reactive systems.**
+- From (1): **Climate-adaptation budgets fund indoor public commons** — visibility, circulation, and chance encounter become design briefs for publicly co-financed venues (Compendium §2.4).
+- From (2): **FRIA-style fairness audits (EU AIA Art. 27) decide who is protected** — outcome bifurcates with Brussels Effect propagation (Bradford 2020).
+- From (3): **Aviation reduction makes intra-regional pairing the default** — international long-distance romance becomes carbon-prohibitive for non-wealthy users.
+- From (4): **Loneliness reclassified as a public-health condition** — EU pilot regions begin co-funding social-engagement prescriptions (Compendium §2.2 demographics row).
 
-**Center driver (revised, research-grounded):**
-> *The collapse of the app-mediated commercial dating model, 2027–2046 — driven by ARPU decline (Statista), Article 5(1)(b) "by effect" prohibition (EU AIA), and demographic mismatch with 20–35 product logic (UN WPP).*
+**3rd-order — Category-creating systemic restructuring.**
+- **A. Intimacy infrastructure becomes a public-goods question** — same facility, same technology, can be Care Commons or premium Connection Club. *Cone: all three differentiate on this axis* (Compendium §2.1, §2.5).
+- **B. The dating industry merges with the care economy** — OADR surge plus public-health reclassification dissolves the boundary between intimacy product and elder/disability care. *Cone: Preferred* (UN WPP 2024; Compendium §2.2).
+- **C. The Brussels Effect bifurcates the global intimacy market** — Art. 50 / Art. 27 either propagate to ~38 countries (~71% of market) or fragment into enforcement islands. *Cone: Preferred ↔ Projected fork* (Bradford 2020; EU AIA).
+- **D. Intimacy stratifies into licensed and gray-market tiers** — €600/month regulated tier vs. $4/month gray-market AI companions; 12% / 88% market split. *Cone: Preposterous* (Compendium §2.3.3).
+- **E. Aviation collapse compresses intimacy to intra-regional only** — under SSP3-7.0 with aviation banned, embodied intimacy is whatever can be reached without flying. *Cone: Preposterous* (IPCC AR6; Compendium §2.7).
 
-**Ring 1 — 1st-order (direct consequences):**
-- **1a.** Engagement-optimization algorithms become legally exposed and commercially unviable. *(EU AIA Art. 5(1)(b); Statista ARPU.)*
-- **1b.** User base bifurcates: some shift to in-person / community-mediated dating, others migrate to AI-companion platforms. *(Statista AI Companion App Users.)*
-- **1c.** Hybrid physical-digital venues replace pure-online dating; outdoor venues compress under heat-humidity constraints. *(IPCC AR6 SPM.3; UN WUP 2018.)*
-- **1d.** Dating-product UX is forced to redesign for the 35+ median user. *(UN WPP 2024.)*
-
-**Ring 2 — 2nd-order (reactive consequences, including backlash):**
-- **2a.** From 1a → First Article 5(1)(b) enforcement actions; compliance-by-default redesign across EU-market platforms (Brussels-Effect mechanism). *(EU AIA; Bradford 2020.)*
-- **2b.** From 1a → Cultural backlash against AI mediation drives a "verified-human" premium tier. *(Statista AI Companion App Users; Statista ARPU.)*
-- **2c.** From 1b → Verified-human matching emerges as a compliance market; non-mediated meeting disadvantages introverted/marginalized users, creating demand for designed-meeting venues. *(EU AIA Art. 27 FRIA.)*
-- **2d.** From 1c → Climate-controlled commercial connection venues emerge (Connection Club typology); parallel public-cooperative commons emerge in Brussels-aligned jurisdictions. *(IPCC AR6; UN WUP 2018; EU AIA Art. 27.)*
-- **2e.** From 1d → Insurance and public-health systems begin discussing "social-engagement prescriptions" in EU pilot regions. *(UN WPP 2024.)*
-
-**Ring 3 — 3rd-order (category-creating, systemic):**
-- **3a.** **Intimacy infrastructure becomes a public-goods question** — who builds, owns, regulates climate-safe regulated venues. → flows into **all three cones** (Projected = commercial tiers; Preferred = public commons; Preposterous = licensed vs. gray split).
-- **3b.** **Dating industry merges with the care / public-health economy** — loneliness reclassified as health infrastructure. → **Preferred (Care Commons).**
-- **3c.** **Bifurcation into licensed regulated tier vs. gray-market substitute tier** — compliance haves vs. have-nots. → **Preposterous (Two-Tier World, post-Companion Wars).**
-- **3d.** **AI companionship becomes default for some demographics; human-mediated romance becomes a premium product** — connection stratifies by what you can afford. → **Projected (Tiered World).**
-
-**Cone tag color-coding (Figma):** Preferred = blue; Projected = amber; Preposterous = red. Branches feeding multiple cones get split arrows.
-
-**Embedding into compendium §2.1.** This wheel uses a different center driver than the current §2.1 prose, which builds its wheel around climate trajectory. **Judgment call for the user:** either (i) replace §2.1's climate driver with this de-monetization driver so the embedded Figma image matches the prose, or (ii) keep §2.1's climate wheel and treat this revised wheel as a second wheel image embedded separately (the brief permits one wheel; the compendium only requires one wheel). The compliant minimum is one wheel; running both would exceed the brief.
+Each 3rd-order branch is tagged with the cone it flows into; together they reconstruct the §2.3 cone from §2.1's driver and remove the linear-extrapolation and individual-psychology branches the methodology rejects.
