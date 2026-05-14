@@ -571,7 +571,7 @@ Xue, Dabin, Xiqun Michael Chen, and Shiwei Yu. "Sustainable Aviation for a Green
 ### A.2 Files in the Drive Folder
 
 - [`_The_Future_Of_2046_Project_Instructions.pdf`](https://drive.google.com/file/d/1DJvnoVfme_YZAICkgqAoBPTv6TFq-Igo/view?usp=drive_link) — assignment brief.
-- [`PSDS3121_Compendium_Dating2046_Wetherby_Aslanian_Yossem-Guy_Shi.md`](https://drive.google.com/file/d/1fGdZg3mCQreVGO31588rRfRaaxCMP1KV/view?usp=drive_link) / [`.docx`](https://docs.google.com/document/d/1GMnkhZqRxZeiD5T8UtHNu5k61mIIUirk/edit?usp=drive_link) — this compendium (source markdown + Word export).
+- [`PSDS3121_Compendium_Dating2046_Wetherby_Aslanian_Yossem-Guy_Shi.md`](https://drive.google.com/file/d/1fGdZg3mCQreVGO31588rRfRaaxCMP1KV/view?usp=drive_link) / [`.docx`](https://docs.google.com/document/d/1GMnkhZqRxZeiD5T8UtHNu5k61mIIUirk/edit?usp=drive_link&ouid=104832351275053087824&rtpof=true&sd=true) — this compendium (source markdown + Word export).
 - [`sprint01/`](https://drive.google.com/drive/folders/1K4eNd_MlI9UXxnhqA11EvWX9L1XqvhAY?usp=drive_link) — Foundation research:
   - [`signals.md`](https://drive.google.com/file/d/1dTFEOD5932cAuqJn2hAnqQFjRNLI_RXl/view?usp=drive_link) — 16 signals across 5 data sources
   - [`steep.md`](https://drive.google.com/file/d/1wm97zrplWt1FcItETyUywn1Z4Rq0XE_f/view?usp=drive_link) — STEEP analysis, 5 dimensions (final version)
