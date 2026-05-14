@@ -235,7 +235,7 @@ Six third-order consequences pass the systemic-restructuring test. (1) *Intimacy
 
 The wheel maps the driver across all three cones. The Connection Club artifact occupies the Preposterous branch, specifically the intersection of node 3 (stratification) and node 6 (aviation collapse + mediated cross-regional intimacy). Climate did not cause the stratification — climate forced the question, and the regulatory answer at each fork decides which cone the wheel resolves into.
 
-[INSERT FIGURE: dating_2046_futures_wheel_v7.png]
+![**Figure 2.1** — Dating 2046 Futures Wheel: De-monetization wall radiating across STEEP-balanced Ring 1, reactive Ring 2 forces, and six third-order systemic restructurings. Pie segments on Ring 3 nodes show multi-cone assignments.](sprint02/dating_2046_futures_wheel_v7.png){#fig:wheel width=100%}
 
 **Wheel node reference:**
 
