@@ -570,22 +570,19 @@ Xue, Dabin, Xiqun Michael Chen, and Shiwei Yu. "Sustainable Aviation for a Green
 
 ### A.2 Files in the Drive Folder
 
-- `_The_Future_Of_2046_Project_Instructions.pdf` — assignment brief.
-- `COMPENDIUM_v3.md` / `COMPENDIUM_v3.docx` — this compendium (source markdown + Word export).
-- `sprint01/` — Foundation research:
-  - `signals.md` — 16 signals across 5 data sources
-  - `steep.md` — STEEP analysis, 5 dimensions (final version)
-  - `bibliography.md` — Chicago Notes-Bibliography, 11 entries
-  - `personal_notes.md` — working research notes
-  - `raw_capture/` — original source files: EU AI Act PDF, UN WPP CSV + summary, UN WUP report, IPCC AR6 SPM, Statista exports
-  - `photos/statista_2026-04-28/` — Statista capture screenshots
-- `sprint02/` — Frameworks & scenarios:
-  - `Cone_of_Plausibility.md` — three 2046 cones (Tiered / Care Commons / Two-Tier)
-  - `futures_wheel_output.md` — wheel narrative + Figma spec
-  - `dating_2046_futures_wheel_v7.png` / `.svg` — wheel diagram (figure in §2.1)
-  - `rapid_forecasting.md` — climate + demographic forecasting
-  - `backcasting.md` — Care Commons backcast
-- `group_miro_board-05092026.pdf` — group whiteboard exports.
+- [`_The_Future_Of_2046_Project_Instructions.pdf`](https://drive.google.com/file/d/1DJvnoVfme_YZAICkgqAoBPTv6TFq-Igo/view?usp=drive_link) — assignment brief.
+- [`PSDS3121_Compendium_Dating2046_Wetherby_Aslanian_Yossem-Guy_Shi.md`](https://drive.google.com/file/d/1fGdZg3mCQreVGO31588rRfRaaxCMP1KV/view?usp=drive_link) / [`.docx`](https://docs.google.com/document/d/1GMnkhZqRxZeiD5T8UtHNu5k61mIIUirk/edit?usp=drive_link) — this compendium (source markdown + Word export).
+- [`sprint01/`](https://drive.google.com/drive/folders/1K4eNd_MlI9UXxnhqA11EvWX9L1XqvhAY?usp=drive_link) — Foundation research:
+  - [`signals.md`](https://drive.google.com/file/d/1dTFEOD5932cAuqJn2hAnqQFjRNLI_RXl/view?usp=drive_link) — 16 signals across 5 data sources
+  - [`steep.md`](https://drive.google.com/file/d/1wm97zrplWt1FcItETyUywn1Z4Rq0XE_f/view?usp=drive_link) — STEEP analysis, 5 dimensions (final version)
+  - [`bibliography.md`](https://drive.google.com/file/d/1F7PezXtVL_ngVkUdF1iEsGKKjeQCrGbX/view?usp=drive_link) — Chicago Notes-Bibliography, 11 entries
+  - [`raw_capture/`](https://drive.google.com/drive/folders/1ayOS9w-5nJ9ZX9zK4CxHm7ferqGK2JOc?usp=drive_link) — original source files: EU AI Act PDF, UN WPP CSV + summary, UN WUP report, IPCC AR6 SPM, Statista exports
+- [`sprint02/`](https://drive.google.com/drive/folders/15-KoQRUODoCl2_W-2Fn6W-U-Su74q28S?usp=drive_link) — Frameworks & scenarios:
+  - [`Cone_of_Plausibility.md`](https://drive.google.com/file/d/1dC70HWe-IpxNZX5Lb2V1TsAU9d6FgmWa/view?usp=drive_link) — three 2046 cones (Tiered / Care Commons / Two-Tier)
+  - [`futures_wheel.md`](https://drive.google.com/file/d/18ODqIYnNTYxy7z3yvKtAw_NMKIxWeZ_O/view?usp=drive_link) — wheel narrative + Figma spec
+  - [`dating_2046_futures_wheel_v7.png`](https://drive.google.com/file/d/1RATBdlyPZ0EuRLa6uC6GAjQBM3iRI_rh/view?usp=drive_link) / [`.svg`](https://drive.google.com/file/d/1guOthlpniS5C2WRXsd7FO5RFJlU-XG7x/view?usp=drive_link) — wheel diagram (figure in §2.1)
+  - [`rapid_forecasting.md`](https://drive.google.com/file/d/1n8tMbPIJlJMAtXS9iRTuzSlXAtVNbZnb/view?usp=drive_link) — climate + demographic forecasting
+  - [`backcasting.md`](https://drive.google.com/file/d/1PK8zntrDm1Buo0UzrUKJ3PxHfNENB59Y/view?usp=drive_link) — Care Commons backcast
 
 ### A.3 Team Process Note
 
