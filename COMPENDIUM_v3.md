@@ -235,7 +235,7 @@ Six third-order consequences pass the systemic-restructuring test. (1) *Intimacy
 
 The wheel maps the driver across all three cones. The Connection Club artifact occupies the Preposterous branch, specifically the intersection of node 3 (stratification) and node 6 (aviation collapse + mediated cross-regional intimacy). Climate did not cause the stratification — climate forced the question, and the regulatory answer at each fork decides which cone the wheel resolves into.
 
-[INSERT FIGURE: dating_2046_futures_wheel_v5.png]
+[INSERT FIGURE: dating_2046_futures_wheel_v7.png]
 
 **Wheel node reference:**
 
