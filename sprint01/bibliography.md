@@ -2,7 +2,7 @@
 
 Appfigures. "Share of Artificial Intelligence (AI) Companion Apps Users Worldwide from January 2023 to December 2024, by Age Group." Chart. February 4, 2025. Statista. Accessed May 13, 2026. https://www.statista.com/statistics/1607446/ai-companion-apps-usage-by-age/.
 
-Bradford, Anu. *The Brussels Effect: How the European Union Rules the World*. New York: Oxford University Press, 2020.
+Bradford, Anu. “The Future of the Brussels Effect.” In The Brussels Effect: How the European Union Rules the World, edited by Anu Bradford. Oxford University Press, 2020. https://doi.org/10.1093/oso/9780190088583.003.0010.
 
 Dobruszkes, Frédéric, Giulio Mattioli, and Enzo Gozzoli. "The Elephant in the Room: Long-Haul Air Services and Climate Change." *Journal of Transport Geography* 121 (December 2024): 104022. https://doi.org/10.1016/j.jtrangeo.2024.104022.
 

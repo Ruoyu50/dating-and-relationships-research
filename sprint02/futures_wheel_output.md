@@ -87,7 +87,7 @@ Single-parent radial structure throughout. No Greek letters.
 - **Parent:** D
 - **Label:** Mid-Market Collapses; Surviving Market Is Barbell-Shaped
 - **Source:** Statista, *Dating Services — Worldwide*, 2026
-- **Caption:** Premium verified-human at one end, cheap unverified AI at the other; little between.
+- **Caption:** Premium verified-human at one end (see CE1), cheap unverified AI at the other (see A2); little between.
 
 **Node E1**
 - **Parent:** E
