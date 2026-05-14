@@ -1,4 +1,9 @@
 # COMPENDIUM v3 — Integration Methodology
+## Workflow constraints
+- Do NOT use `git checkout <commit_id>`, `git show <commit_id>`, or any command that reads git history. Read source files at HEAD only.
+- Generate v3 by **constructing** the output, not by **patching** v2. Open `COMPENDIUM_v3.md` as a new file, write each section per the rules below, do not edit `COMPENDIUM_v2.md` at any point.
+- `COMPENDIUM_v2.md` is **read-only reference** for architecture (heading structure, section order, A-class content). Do not modify v2.
+- For each section in the rules below, the source is explicit. If a section says "Use v2 unchanged", copy that section's text from v2 verbatim into v3. If a section says "REPLACE with sprint02/X.md", use the sprint02 file content, ignore v2 entirely for that section.
 
 ## Task
 Generate `COMPENDIUM_v3.md` by integrating sprint01/ + sprint02/ content into the `COMPENDIUM_v2.md` architecture. v2 is the architecture reference (heading structure, section order, frontmatter, A-class content). sprint01/ + sprint02/ contain the updated B-class content. C-class content is rewritten inline below.
