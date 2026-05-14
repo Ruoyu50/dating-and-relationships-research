@@ -1,162 +1,79 @@
-# STEEP+ Updated (2026-05-10)
+## 1.4 Key Drivers (Micro / Macro / Mega) — STEEP Analysis
 
-## 一、STEEP 是什么（先用最简单的话）
+We organize our drivers using the canonical **STEEP** framework — Social, Technological, Economic, Environmental, Political — with each driver treated as a *variable* whose value across our three 2046 scenarios shapes one of the cones in §2.3.
 
-STEEP 是 5 个看世界的角度。每个角度让你看到"未来可能怎么变"。
+### 1.4.1 [S] Social — Aging Cohorts, Urbanizing Bodies, Compounding Loneliness
+*Sources: UN World Population Prospects 2024; UN World Urbanization Prospects 2018; Appfigures/Statista 2024; IPCC 2023, SPM A.2.5.*
 
-- S = Social（人怎么想、怎么活）
-- T = Technological（机器和工具怎么变）
-- E = Economic（钱怎么流动）
-- E = Environmental（自然怎么变）
-- P = Political（规则怎么定）
+The social dimension of dating in 2046 is driven by three structurally distinct shifts in the user base — demographic, spatial, and cultural — that converge on the same question.
 
-## 二、为什么 5 个不够，要扩展到 STEEP+
+**The demographic shift.** From our analysis of UN WPP 2024 raw data (`unpopulation_dataportal_20260508163331_world.csv`):
 
-有些重要的力量，不能塞进这 5 个字母里。
+| Indicator | 2026 | 2036 | 2046 | Change |
+|---|---|---|---|---|
+| Median age (global) | 31.10 | 33.21 | 35.21 | +4.1 yrs |
+| Old-age dependency ratio (65+/15–64) | 16.24 | 20.60 | 24.20 | **+49.0%** |
 
-例：人口老化。这不是 social（不是人怎么想）。
-也不是 economic（不是钱）。
-它就是"人口结构"本身——**Demographic**。
+By 2046, every 4 working-age adults will support 1 elderly person — globally. The "median dater" is no longer a 22-year-old college student. They are 35, often divorced, often single-parenting, often facing decades of post-childbearing partner search alongside a 49%-heavier elder-care load. The dating industry's product assumptions break before its business model does.
 
-例：城市化。这不完全是 environmental（不是自然）。
-也不完全是 social（不只是人怎么活）。
-它是"人在空间上怎么分布"——**Spatial**。
+**The spatial shift.** Urbanization moves from 30% (1950) to 55% (2018) to a projected **68% by 2050** (UN WUP 2018). The world adds **+2.5 billion** urban residents by 2050, with **90% of growth in Asia and Africa**. By 2030, **43 megacities** (>10M residents) will house roughly 1 in 8 urban residents, up from 33 in 2018. Density rises fastest where infrastructure is weakest — Lagos, Dhaka, Delhi, Manila — exactly the cities where regulatory enforcement is also weakest. Loneliness becomes a megacity-scale phenomenon concentrated in jurisdictions that lack both the institutional capacity to address it and the regulatory tools to constrain how private platforms commercialize it.
 
-所以 STEEP+ = STEEP + Demographic + Spatial。
+**The cultural shift.** AI companion adoption is generationally concentrated: 65.4% of users are 18–24, 13.7% are over 50 (Appfigures/Statista 2024). The cohort aging into the legacy dating-app product window and the cohort defaulting to AI companions are not the same people — they are running in parallel, not sequence. Meanwhile, chronic loneliness is no longer framed as individual deficit: IPCC AR6 flags compounding mental-health burden with high confidence (IPCC 2023, SPM A.2.5), and the demographic and spatial math above makes population-level intervention increasingly unavoidable.
 
-权威源：Hines & Bishop (2015), *Thinking About the Future*。futures studies 标准扩展。
+The social variable is not whether chronic loneliness becomes a population-scale burden — it is whether societies treat it as a private problem to be solved by platforms, or as public-health infrastructure to be funded collectively.
 
-## 三、你的 5 个 driver 落在 STEEP+ 哪里
+### 1.4.2 [T] Technological — VR Maturation & AI Companion Platform Growth
+*Source: Statista, AI Companion App Users — Worldwide, 2026.*
 
-| Driver | 字母 | 简单解释 |
-|---|---|---|
-| Statista 撞墙 + ARPU 下行 | **E (Economic)** | dating 行业的钱怎么变 |
-| WPP 人口老化 | **Demographic** | 人口结构怎么变 |
-| IPCC 气候变化 | **E (Environmental)** | 自然怎么变 |
-| WUP 城市化 | **Spatial / Demographic** | 人在哪里 |
-| EU AI Act 监管 | **P (Political)** | 规则怎么定 |
-| Tech 缺口 | **T (Technological)** | （目前缺，可用 Climate Migration Tech 补，但可放弃）|
-| Social 维度 | **S (Social)** | 小组其他人负责 |
+Three technology lines converge by 2046 to make a facility like Connection Club industrially feasible. The first is **VR and haptic maturation**: headset resolution, eye-tracking, and full-body sensory suits moved from research labs into consumer hardware over the late 2010s and 2020s. By mid-decade the bottleneck has shifted from optics to networking latency, content production cost, and identity verification — all three of which structurally favor centralized facility deployment over home use. The second is the **growth of AI companionship platforms**. Replika, Character.AI, and their successors prove, ahead of the 2030 wall, that a substantial daily-active user base will form intimate routines around conversational agents (Statista, *AI Companion App Users — Worldwide*, 2026). The third is **immersive identity systems**: persistent biometric avatars, cross-session memory continuity, and tokenized "shared memory" artifacts produced inside a session. Together these stack lines convert mediated intimacy from a science-fiction proposition into a deliverable product category. The dating industry's incumbents face a hardware-and-model stack they did not build: VR/haptics sit closer to gaming and theme-park supply chains, AI companionship closer to foundation-model providers. In jurisdictions where Article 50 disclosure and Article 27 FRIA bite, the industry that wins is the one that can run an audited facility — not the one that owns a swipe app.
 
-## 四、每个 driver 是变量，不是结论
+### 1.4.3 [E] Economic — The Statista Wall & ARPU Collapse
+*Source: Statista, Dating Services — Worldwide, 2023/2026.*
 
-这是最关键的一条。看一个例子：
+The dating industry's commercial model breaks between 2027 and 2030. By 2046, *something* will have replaced it. Three possible "values" of this variable:
+- **Projected:** Big-platform consolidation into tiered, jurisdictional pricing.
+- **Preferred:** Public-sector or hybrid-cooperative re-classification.
+- **Preposterous:** Market collapse and a regulated/gray-market split.
 
-**Driver：人口老化（WPP）**
+### 1.4.4 [E] Environmental — Climate Constrains Where Bodies Can Meet
+*Source: IPCC AR6 Synthesis Report, Summary for Policymakers; Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024.*
 
-不要理解成"人口正在老化，所以..."（这是把 driver 当结论）。
+The IPCC AR6 lays out **five emission pathways** (SSP1-1.9 → SSP5-8.5). By 2081–2100, warming ranges from 1.4 °C to 4.4 °C. **2046 sits in the middle window (2041–2060)** — the period AR6 identifies as the transition from "approaching tipping points" to "physical impacts intensifying."
 
-要理解成"人口老化是一个变量，它的取值可以是 X / Y / Z"。
+Key 2046-relevant physical indicators:
+- **Heat-humidity risk:** at 2.4–3.1 °C warming, parts of Africa, South Asia, and South America face **150–300 days per year** of human-lethal heat-humidity exposure (Figure SPM.3).
+- **Mental health burden** from extreme heat and weather events is rated "high confidence" (A.2.5).
+- **Climate displacement** becomes non-linear post-2040.
+- **Aviation budget pressure:** long-haul air services consume a disproportionate share of the 1.5 °C carbon budget (Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024), making cross-regional intimacy a contested climate-policy variable rather than a free background condition.
 
-X = 老化按 UN 预测发生（projected）→ 后果 1
-Y = 老化叠加寿命延长技术（preferred）→ 后果 2
-Z = 老化叠加生育崩溃 + 灾难（preposterous）→ 后果 3
+The implication for dating: **outdoor dating becomes seasonal, regional, or unsafe; long-distance dating becomes carbon-prohibitive.** Indoor commons become primary venues, not alternatives, and the geography of romance contracts.
 
-同一个 driver，三个取值，三种未来。
+### 1.4.5 [P] Political — The EU AI Act & the Brussels Effect
+*Source: EU Artificial Intelligence Act, Articles 5, 6, 27, 50; Bradford 2020.*
 
-## 五、5 个 driver × 3 个取值 = cones 的素材矩阵
+The AI Act enters full effect on **2 August 2026**. The provisions most directly relevant to dating and AI companionship:
 
-（这就是我上面给你的那张表）
+- **Article 5(1)(a):** Prohibits AI systems using **subliminal techniques** or **manipulative/deceptive techniques** that materially distort behavior in a way likely to cause significant harm.
+- **Article 5(1)(b):** Prohibits AI systems that **exploit vulnerabilities** based on age, disability, or social/economic situation — *by objective OR by effect.* Loneliness-driven engagement optimization is legally exposed under this clause, intentional or not.
+- **Article 5(1)(f):** Prohibits emotion-inference AI in workplaces and education.
+- **Article 27:** Requires **Fundamental Rights Impact Assessment (FRIA)** for high-risk deployers, including public-service providers and certain private actors.
+- **Article 50:** Mandates **disclosure** that a user is interacting with AI; **machine-readable watermarking** of AI-generated content; **disclosure of emotion-recognition** and **deepfake** systems.
 
-| Driver | Projected | Preferred | Preposterous |
+The political variable is not whether AI in dating is regulated — it is whether the EU's standard **propagates globally** (the Brussels Effect; Bradford 2020) or **fragments** into a regulatory patchwork. That single question separates two of our three cones.
+
+### 1.4.6 Driver Tier Table
+
+| Tier | Driver | STEEP Dimension | Source |
 |---|---|---|---|
-| Economic | 大公司整合 | 公共部门接管 | 崩溃 + 黑市 |
-| Demographic | 老化常态化 | 慢节奏关系基础设施 | 跨代关系 + 生育崩溃 |
-| Climate | SSP2-4.5 | SSP1-2.6 | SSP3-7.0 + 极端事件 |
-| Urban | 全球南方扩张 | 城市重设计 | 城市分化 |
-| Political | 监管碎片化 | Brussels Effect 强 | 紧急立法 + 黑市 |
+| **Mega** | Climate trajectory (SSP1-2.6 → SSP5-8.5) | E (Environmental) | IPCC AR6 |
+| **Mega** | Demographic aging & dependency-ratio surge | S (Social) | UN WPP 2024 |
+| **Mega** | Megacity densification, esp. Global South | S (Social) | UN WUP 2018 |
+| **Macro** | EU AI Act & Brussels Effect on AI/dating regulation | P (Political) | EU AIA Art. 5/6/27/50; Bradford 2020 |
+| **Macro** | Dating-industry revenue & ARPU wall (2027–2030) | E (Economic) | Statista 2023/2026 |
+| **Micro** | Rise of AI-companion platforms; loneliness-as-product | T (Technological) + S (Social) | Statista AI Companion App Users |
+| **Micro** | VR/haptic infrastructure maturation | T (Technological) | Statista AI Companion App Users (adjacency); §1.4.2 |
+| **Micro** | Decline of marriage and rise of single-person households | S (Social) | Statista marriage rate; single-person households |
 
-## 六、写 cones 时的动作
-
-不是"想 3 个不同的故事"。
-是"把这张表横向读 3 次，每次读一列，合成一个世界"。
-
-Projected cone = 读 projected 那列 = 一个世界
-Preferred cone = 读 preferred 那列 = 一个世界
-Preposterous cone = 读 preposterous 那列 + wildcard C = 一个世界
-
-
-
-### 第一部分：[Social/Economic] UN World Population Prospects 2024 数据挖掘
-**分析对象：** `unpopulation_dataportal_20260508163331_world.csv`
-**统计周期：** 2026年 - 2046年（20年期预测）
-
-#### 1. 人口年龄中位数（Median Age）数据轨迹：
-*   **起始值（2026）：** 31.0987 岁。
-*   **中期值（2036）：** 33.2092 岁。
-*   **终点值（2046）：** 35.2057 岁。
-*   **数据变化率：** 全球人口以平均每 10 年增加约 **2.05 岁** 的速度老化。
-*   **结构性意义：** 2046 年的全球人口重心将彻底从“青年劳动力阶段”跨入“成熟期阶段”，这意味着社会整体消费习惯和社交习惯将基于 35 岁以上的心理物理基准。
-
-#### 2. 老年抚养比（Old-age dependency ratio [65+/15-64]）数据轨迹：
-*   **2026年数据：** 16.2361（即每 100 个劳动年龄人口负担约 16 个老人）。
-*   **2036年数据：** 20.6042。
-*   **2046年数据：** 24.1979。
-*   **净增长量：** +7.96。
-*   **相对增长率：** **49.03%**。
-*   **关键结论：** 到 2046 年，全球每 4 个适龄劳动人口就需要供养 1 名老年人。这反映了全球生产力结构的重大倒置，以及劳动人口在时间、经济支出上的沉重负担。
+We carry these drivers into the **Cone of Plausibility** (§2.3), where different *values* of climate, regulation, demographics, and technology produce the three 2046 scenarios.
 
 ---
-
-### 第二部分：[Environmental] IPCC AR6 Synthesis Report (SPM) 深度分析
-**分析对象：** `Summary for Policymakers` 报告文本与图表
-**关键观察点：** 2041-2060 中期气候窗口
-
-#### 1. 升温情景与时间锁定：
-*   **升温预测（SSP情景）：**
-    *   SSP2-4.5（中间路径）：2081–2100 年升温预期为 **2.7°C** (区间 2.1°C to 3.5°C)。
-    *   SSP5-8.5（极高路径）：预期升温 **4.4°C** (区间 3.3°C to 5.7°C)。
-*   **2046年定位：** 报告指出在“近期（2021-2040）”之后，即使在 SSP1-1.9 情景下，1.5°C 的跨越也是极大概率发生的。到 2046 年，世界将处于从“临界点”向“物理影响加剧期”转型的阶段（B.1.1）。
-
-#### 2. 物理与生物影响原始指标：
-*   **热湿指数风险（Heat-Humidity Risk）：** 报告图表 Figure SPM.3 明确标识，若升温达到 2.4°C-3.1°C，非洲、南美、东南亚等地的 **“对人类有致死风险的高温高湿天数”** 将从目前的近乎 0 天飙升至每年 **150 天至 300 天**。
-*   **心理健康（Mental Health）：** 报告以“高置信度（High Confidence）”指出，气温升高与极端天气事件导致了显著的心理健康负担增加，包括焦虑和创伤（A.2.5）。
-*   **人口流离（Displacement）：** 气候驱动的迁移已在全球多地发生，预计到中期（2046左右），受灾害影响区域的人口流动将呈现非线性增长。
-
----
-
-### 第三部分：[Social/Spatial] UN World Urbanization Prospects 数据分析
-**分析对象：** `2018 Revision - Key Facts`
-**预测基准：** 2018年 - 2050年
-
-#### 1. 城市化率的物理扩张：
-*   **百年跨度：** 1950年 (30%) → 2018年 (55%) → 2050年 (68%)。
-*   **人口净增量：** 到 2050 年，全球将增加 **25 亿** 城市居民。
-*   **地理集中度：** 增长的 **90%** 发生在亚洲和非洲。
-*   **核心国家增量：** 印度将增加 4.16 亿，中国 2.55 亿，尼日利亚 1.89 亿。
-
-#### 2. 居住形态的异化：
-*   **巨型城市（Megacities）：** 2030 年将有 **43 个** 超过 1000 万人口的城市（2018年为 33 个）。
-*   **居住密度：** 约 1/8 的城市人口将居住在这些巨型城市中。
-*   **趋势逻辑：** 这种扩张不是均匀的，而是高度聚集在基础设施不完善的发展中地区，导致城市生活伴随着高度的匿名性、拥挤以及公共空间的压缩。
-
----
-
-### 第四部分：[Political/Legal] EU Artificial Intelligence Act 法律条款拆解
-**分析对象：** `Article 5, 6, 27, 50` 原始文本
-
-#### 1. 法律禁区（Prohibited Practices - Art. 5）：
-*   **潜意识操纵（Subliminal techniques）：** 严禁部署超出意识感知的、旨在扭曲个人行为并造成伤害的 AI 系统。
-*   **针对弱势群体（Vulnerability exploitation）：** 严禁利用由于年龄、残疾或社会经济状况导致的特定弱势特征进行行为诱导。
-*   **生物识别与评分：** 严禁在公共场所进行实时远程生物特征识别（执法例外除外）；严禁进行社交评分。
-
-#### 2. 透明度与披露义务（Transparency Obligations - Art. 50）：
-*   **身份告知：** AI 系统在与自然人交互时，必须以清晰、可辨别的方式告知用户其正在与 AI 交互（50.1）。
-*   **合成标记：** 生成合成文本、图像、音频或视频的系统，必须确保输出内容是以 **“机器可读格式标注（Marked in a machine-readable format）”** 且可检测的（50.2）。
-*   **情绪识别披露：** 部署情绪识别系统或生物分类系统的运营商，必须告知受其影响的自然人（50.3）。
-*   **深度伪造：** Deepfake 的部署者必须强制披露内容是 artificially generated/manipulated 的（50.4）。
-
-#### 3. 治理与风险架构（Art. 27）：
-*   **FRIA 评估：** 高风险 AI 部署者必须进行 **Fundamental Rights Impact Assessment（基本权利影响评估）**。
-*   **评估要素：** 必须包含：使用期限与频率、受影响自然人类别、具体伤害风险、人为监督机制、治理架构。
-
----
-
-### 综合分析：2046 年研究证据汇总
-
-根据上述文档，2046 年的背景环境由以下确定的变化逻辑构成：
-
-1.  **[人口/经济压力]：** 抚养压力增加了 49%，社会中位数人群正处于 35 岁的“压力峰值期”。
-2.  **[环境压力]：** 物理空间受到极端热应力的挤压（每年 150+ 天风险期），导致人类活动空间被迫转向室内。
-3.  **[空间形态]：** 68% 的人口生活在极高密度的城市中，增长极在亚非。
-4.  **[监管红线]：** 任何技术方案必须通过“透明度审计”，禁止一切形式的潜意识操纵，且“AI 身份”必须是强制公开的法律事实。
