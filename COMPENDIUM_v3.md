@@ -571,14 +571,20 @@ Xue, Dabin, Xiqun Michael Chen, and Shiwei Yu. "Sustainable Aviation for a Green
 ### A.2 Files in the Drive Folder
 
 - `_The_Future_Of_2046_Project_Instructions.pdf` — assignment brief.
+- `COMPENDIUM_v3.md` / `COMPENDIUM_v3.docx` — this compendium (source markdown + Word export).
 - `sprint01/` — Foundation research:
-  - `signals.md`, `steep.md` (replaces previous draft), `bibliography.md` (Chicago NB, 11 entries), `personal_notes.md`
-  - `raw_capture/` — original PDFs, CSVs, screenshots from all required databases.
-  - `photos/` — Statista capture screenshots.
+  - `signals.md` — 16 signals across 5 data sources
+  - `steep.md` — STEEP analysis, 5 dimensions (final version)
+  - `bibliography.md` — Chicago Notes-Bibliography, 11 entries
+  - `personal_notes.md` — working research notes
+  - `raw_capture/` — original source files: EU AI Act PDF, UN WPP CSV + summary, UN WUP report, IPCC AR6 SPM, Statista exports
+  - `photos/statista_2026-04-28/` — Statista capture screenshots
 - `sprint02/` — Frameworks & scenarios:
-  - `Cone_of_Plausibility.md`, `futures_wheel_output.md`, `rapid_forecasting.md`, `backcasting.md`
-- `connection_club_site/` — the artifact (React + Vite + Tailwind website).
-- `presentation_script.md` — final presentation script with timing.
+  - `Cone_of_Plausibility.md` — three 2046 cones (Tiered / Care Commons / Two-Tier)
+  - `futures_wheel_output.md` — wheel narrative + Figma spec
+  - `dating_2046_futures_wheel_v7.png` / `.svg` — wheel diagram (figure in §2.1)
+  - `rapid_forecasting.md` — climate + demographic forecasting
+  - `backcasting.md` — Care Commons backcast
 - `group_miro_board-05092026.pdf` — group whiteboard exports.
 
 ### A.3 Team Process Note
