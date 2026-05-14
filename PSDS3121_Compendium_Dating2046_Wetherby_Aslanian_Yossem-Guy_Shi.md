@@ -580,7 +580,7 @@ Xue, Dabin, Xiqun Michael Chen, and Shiwei Yu. "Sustainable Aviation for a Green
 - [`sprint02/`](https://drive.google.com/drive/folders/15-KoQRUODoCl2_W-2Fn6W-U-Su74q28S?usp=drive_link) — Frameworks & scenarios:
   - [`Cone_of_Plausibility.md`](https://drive.google.com/file/d/1dC70HWe-IpxNZX5Lb2V1TsAU9d6FgmWa/view?usp=drive_link) — three 2046 cones (Tiered / Care Commons / Two-Tier)
   - [`futures_wheel.md`](https://drive.google.com/file/d/18ODqIYnNTYxy7z3yvKtAw_NMKIxWeZ_O/view?usp=drive_link) — wheel narrative + Figma spec
-  - [`dating_2046_futures_wheel_v7.png`](https://drive.google.com/file/d/1RATBdlyPZ0EuRLa6uC6GAjQBM3iRI_rh/view?usp=drive_link) / [`.svg`](https://drive.google.com/file/d/1guOthlpniS5C2WRXsd7FO5RFJlU-XG7x/view?usp=drive_link) — wheel diagram (figure in §2.1)
+  - [`dating_2046_futures_wheel.png`](https://drive.google.com/file/d/1RATBdlyPZ0EuRLa6uC6GAjQBM3iRI_rh/view?usp=drive_link) / [`.svg`](https://drive.google.com/file/d/1guOthlpniS5C2WRXsd7FO5RFJlU-XG7x/view?usp=drive_link) — wheel diagram (figure in §2.1)
   - [`rapid_forecasting.md`](https://drive.google.com/file/d/1n8tMbPIJlJMAtXS9iRTuzSlXAtVNbZnb/view?usp=drive_link) — climate + demographic forecasting
   - [`backcasting.md`](https://drive.google.com/file/d/1PK8zntrDm1Buo0UzrUKJ3PxHfNENB59Y/view?usp=drive_link) — Care Commons backcast
 
