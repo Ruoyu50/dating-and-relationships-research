@@ -454,27 +454,30 @@ A slide deck describing this future would be forgettable. A marketing site that 
 
 ## 2.6 Contextual Scenario — Which World Does It Live In?
 
-Connection Club lives in the Projected cone — the Tiered World of 2046.
+Connection Club lives in the Preposterous cone — the Two-Tier World of 2046, twelve years after the Companion Wars.
 
-It is a premium, urban, climate-controlled intimacy product for the upper-tier user in a world where:
+It is the regulated-tier intimacy product for the upper-tier user in a world where:
 
-- The dating-industry revenue wall has forced consolidation into infrastructure-style services (Statista 2026).
-- Outdoor dating is seasonally limited under SSP2-4.5 to SSP3-7.0 trajectories (IPCC 2023, SPM Figure SPM.3).
-- AI is regulated in some jurisdictions, deregulated in others (Regulation 2024/1689; Bradford 2020).
-- The median user is 35+, often partnered-and-bored, divorced, or widowed (UN World Population Prospects 2024).
-- Loneliness has been segmented by class rather than solved.
+- The dating-industry revenue wall has collapsed the mid-market entirely, leaving a barbell of regulated premium services and gray-market AI companionship (Statista 2026; §2.3.3).
+- Outdoor dating is largely non-viable under SSP3-7.0 trajectories, with 200+ dangerous heat-humidity days per year in target megacities (IPCC 2023, SPM Figure SPM.3).
+- Commercial aviation has been almost entirely eliminated under climate-budget pressure; most users live and die within their region of birth (Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024).
+- Post-Companion Wars regulation has classified intimate AI as a restricted category, licensed only in the EU and 47 aligned states under the post-Wars Article 5(3) prohibition on "engineered emotional dependency" (Regulation 2024/1689, as extended; §2.3.3).
+- The median user is 35+, often partnered-and-bored, divorced, widowed, or among the climate-displaced (UN World Population Prospects 2024).
+- Loneliness has not been segmented — it has been jurisdictionally and economically partitioned: €600/month regulated facilities on one side, $4/month gray-market AI girlfriends on the other.
 
-It is adjacent to the Preferred cone (Care Commons) — the same physical typology, but commercial and stratified rather than public and universal. It is one regulatory shift away from being preferred infrastructure, and one deregulatory shift away from being preposterous gray-market.
+It is adjacent to the Preferred cone (Care Commons) — the same physical typology, but commercial and stratified rather than public and universal. It sits inside the 12% regulated market share described in §2.3.3, not the 88% gray market — making it the visible, sellable surface of the Two-Tier World.
 
 This is deliberate: Connection Club asks the audience, "This already exists in your future. Which world do you want it to live in?"
 
 ### 2.6.1 Cone-Artifact Alignment — Why a Facility in a Post-Mobility World
 
-A challenge surfaced at the Sprint 2 review: if the Preposterous cone collapses long-distance mobility, why does the artifact require visiting a physical facility at all? The answer resolves the apparent contradiction and explains why Connection Club's friction is a feature.
+A challenge surfaced at the Sprint 2 review: if the Preposterous cone collapses long-distance mobility, why does the artifact require visiting a physical facility at all? The answer resolves the apparent contradiction and explains why Connection Club's friction is a feature, not a flaw.
 
-Air travel contracts under SSP3-7.0 carbon-budget pressure (Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024), but intra-regional mobility persists through expanded rail and local transit. Connection Club facilities are regional infrastructure — accessible within 60–90 minutes of major urban centers, but only within the user's region of residence. Cross-regional travel for intimacy is no longer possible. Additionally, post-Companion Wars regulation classifies at-home immersive identity systems as too high-risk to license — physical facility deployment, with mandated biometric audit and session logging consistent with Article 27 FRIA logic (Regulation 2024/1689), becomes the only legal channel for regulated intimate AI in jurisdictions following the EU compliance model. The friction of going to a facility is not a usability flaw; it is a regulatory feature. Combined with high-tier membership pricing accessible only to top earners, this physical access requirement becomes part of the stratification the cone reveals: only those who live near a facility and can afford the membership become users. The same friction that protects users in the regulated tier is what locks out users who cannot pay or cannot travel — they default to the gray-market AI companion described in §2.3.3.
+Air travel contracts to near-elimination under SSP3-7.0 carbon-budget pressure (Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024), but intra-regional mobility persists through expanded rail and local transit. Connection Club facilities are regional infrastructure — accessible within 60–90 minutes of major urban centers, but only within the user's region of residence. Cross-regional travel for intimacy is no longer possible. Additionally, post-Companion Wars regulation classifies at-home immersive identity systems as too high-risk to license — physical facility deployment, with mandated biometric audit and session logging consistent with Article 27 FRIA logic (Regulation 2024/1689), becomes the only legal channel for regulated intimate AI in jurisdictions following the EU compliance model.
 
-This is also why Connection Club is more legible in the Projected cone (Tiered World) than in the Preposterous cone (Two-Tier World): it is the upper tier of a stratified intimacy market — the commercial sibling of Care Commons, not a survival product of the gray market.
+The friction of going to a facility is not a usability flaw; it is a regulatory feature of the post-Wars licensing regime. Combined with €600/month-tier membership pricing accessible only to top earners, this physical access requirement becomes part of the stratification the cone reveals: only those who live near a facility and can afford the membership become users. The same friction that protects users in the regulated tier is what locks out users who cannot pay or cannot travel — they default to the gray-market AI companion described in §2.3.3.
+
+This is why Connection Club sits inside the Preposterous cone rather than the Projected one (Tiered World): the Projected cone's stratification is gradient — tiered pricing across a continuous market. The Preposterous cone's stratification is binary — a regulated 12% above, a gray-market 88% below, with no middle. Connection Club is the visible upper boundary of that binary split, the commercial sibling of Care Commons in a world where the Brussels Effect held only narrowly and the Companion Wars rewrote what could be sold at all.
 
 ---
 
