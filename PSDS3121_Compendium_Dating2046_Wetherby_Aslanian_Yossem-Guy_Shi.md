@@ -187,7 +187,7 @@ Key 2046-relevant physical indicators:
 - **Heat-humidity risk:** at 2.4–3.1 °C warming, parts of Africa, South Asia, and South America face **150–300 days per year** of human-lethal heat-humidity exposure (Figure SPM.3).
 - **Mental health burden** from extreme heat and weather events is rated "high confidence" (A.2.5).
 - **Climate displacement** becomes non-linear post-2040.
-- **Aviation budget pressure:** long-haul air services consume a disproportionate share of the 1.5 °C carbon budget (Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024), making cross-regional intimacy a contested climate-policy variable rather than a free background condition.
+- Aviation budget pressure: long-haul air services consume a disproportionate share of the 1.5 °C carbon budget (Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024; Xue, Chen, and Yu 2025), making cross-regional intimacy a contested climate-policy variable rather than a free background condition.
 
 The implication for dating: **outdoor dating becomes seasonal, regional, or unsafe; long-distance dating becomes carbon-prohibitive.** Indoor commons become primary venues, not alternatives, and the geography of romance contracts.
 
@@ -233,7 +233,7 @@ Ring 2 traces reactive forces, not smooth extrapolation. Branch C generates four
 
 Six third-order consequences pass the systemic-restructuring test. (1) *Intimacy infrastructure becomes a public-goods question* — the mid-market collapse forces the public-or-private fork (→ Projected + Preferred, same question, opposite answers). (2) *Dating merges with the care economy* — loneliness reframed as public health becomes the precondition for doctor-prescribed, insurance-covered intimacy infrastructure (→ Preferred). (3) *Two-tier intimacy stratification* by jurisdiction and income — barbell market structure as stratification itself (→ Projected + Preposterous). (4) *Climate-adaptive indoor commons replace open-air sociality* — outdoor unavailability as physical necessity, ownership form determined by which cone wins (→ all three cones). (5) *Chronic loneliness reclassified as public-health infrastructure* — direct extension of the population-health reframing (→ Preferred). (6) *Aviation collapse contracts the geography of romance*, pushing cross-regional intimacy into VR/simulation (Santoso et al. 2025) — anchored in the Companion Wars wildcard (→ Preposterous).
 
-The wheel maps the driver across all three cones. The Connection Club artifact occupies the Preposterous branch, specifically the intersection of node 3 (stratification) and node 6 (aviation collapse + mediated cross-regional intimacy). Climate did not cause the stratification — climate forced the question, and the regulatory answer at each fork decides which cone the wheel resolves into.
+The wheel maps the driver across all three cones. The Connection Club artifact occupies the Preposterous branch, specifically the intersection of node 3 (stratification) and node 6 (aviation collapse + mediated cross-regional intimacy). Although node 3 (stratification) appears in both Projected and Preposterous cones as a concept — gradient in the former, binary in the latter — the Connection Club artifact specifically instantiates its Preposterous form: the 12% regulated tier sitting above the 88% gray market. Climate did not cause the stratification — climate forced the question, and the regulatory answer at each fork decides which cone the wheel resolves into.
 
 ![**Figure 2.1** — Dating 2046 Futures Wheel: De-monetization wall radiating across STEEP-balanced Ring 1, reactive Ring 2 forces, and six third-order systemic restructurings. Pie segments on Ring 3 nodes show multi-cone assignments.](sprint02/dating_2046_futures_wheel.png){#fig:wheel width=100%}
 
@@ -436,7 +436,7 @@ The Preferred Cone is what we want to walk toward. The Preposterous Cone — and
 
 ### 2.5.1 What It Is
 
-Connection Club is a members club designed to restore human connection in a world where political instability, climate constraint on outdoor mobility, and compressed work schedules have made in-person social life increasingly inaccessible (IPCC 2023; Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024). Members enter a physical facility, are placed into a private pod with a full sensory VR headset and haptic suit, and meet others — across the world, but only within their own region of residence — in immersive shared environments. Each user has a persistent avatar built from a full-body scan, updated on every visit. Each lived scenario — a Lisbon café, a Hokkaido onsen, a Tokyo rooftop — runs concurrently, switchable like tabs, with relationships and memories carrying across sessions.
+Connection Club is a members club designed to restore human connection in a world where post-Companion Wars regulation on intimate AI, near-elimination of commercial aviation, and SSP3-7.0 climate constraint on outdoor mobility have made in-person social life increasingly inaccessible (IPCC 2023; Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024; Regulation 2024/1689, as extended). Members enter a physical facility, are placed into a private pod with a full sensory VR headset and haptic suit, and meet others — across the world, but only within their own region of residence — in immersive shared environments. Each user has a persistent avatar built from a full-body scan, updated on every visit. Each lived scenario — a Lisbon café, a Hokkaido onsen, a Tokyo rooftop — runs concurrently, switchable like tabs, with relationships and memories carrying across sessions.
 
 ### 2.5.2 How Membership Works
 
@@ -491,7 +491,7 @@ Connection Club's scenario rests on six observable and emergent forces, each anc
 
 ### 2.8.1 Who Is It For?
 
-The target audience is young to middle-aged adults (21–45) living in dense urban environments — people who are experiencing social isolation despite being constantly "connected," struggling to form meaningful in-person relationships, and feeling the effects of climate restrictions on travel and mobility. This audience is structurally consistent with the cohort data the Compendium documents: the urban share of the global population reaches 68% by 2050 with 90% of growth in Asian and African megacities (UN World Urbanization Prospects 2018); long-haul aviation contracts under climate-budget pressure (Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024); and IPCC AR6 flags mental-health burden from extreme heat and weather events with high confidence (IPCC 2023, SPM A.2.5).
+The target audience is adults 35 and older living in dense urban environments — divorced, widowed, partnered-and-bored, or climate-displaced — experiencing social isolation despite being constantly "connected," struggling to form meaningful in-person relationships, and feeling the effects of climate restrictions on travel and mobility. This audience is structurally consistent with the cohort data the Compendium documents: long-haul aviation contracts under climate-budget pressure (Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024); IPCC AR6 flags mental-health burden from extreme heat and weather events with high confidence (IPCC 2023, SPM A.2.5); and in the post-Companion Wars regulated tier described in §2.3.3, licensed intimate-AI access concentrates in the EU and 47 aligned states with the income to afford it.
 
 ### 2.8.2 How It Works
 
@@ -500,7 +500,7 @@ The target audience is young to middle-aged adults (21–45) living in dense urb
 3. **Body Scan & Avatar Update:** Each visit begins with a full-body scan that updates the user's persistent avatar.
 4. **Pod Allocation & Sensory Calibration:** Member enters a private pod equipped with a full sensory VR headset, haptic body suit, and spatial audio environment.
 5. **Lived Scenario Session:** Member enters one of their existing lived scenarios — a Lisbon café, a Hokkaido onsen, a Tokyo rooftop — or starts a new one. Their match is also physically in a pod, somewhere else in the world but within the same region. Scenarios are switchable mid-session like tabs on a computer.
-6. **Disclosure (Brussels-aligned jurisdictions):** Every AI-mediated element — avatar smoothing, ambient NPCs, conversation prompts — is disclosed at the start of each session per Article 50 of Regulation 2024/1689. In non-aligned jurisdictions this disclosure is optional.
+6.  **Disclosure:** Every AI-mediated element — avatar smoothing, ambient NPCs, conversation prompts — is disclosed at the start of each session under Article 50 of Regulation 2024/1689 and the post-Companion Wars Article 5(3) prohibition on engineered emotional dependency. Connection Club operates only in EU and aligned jurisdictions where these disclosures are mandatory; the gray-market alternative described in §2.3.3 operates outside this regulated channel.
 7. **Persistent Memory Across Sessions:** Relationships and memories evolve and carry across visits — the avatar, the scenarios, and the relationships are not reset between sessions.
 
 ### 2.8.3 Why It Sells
@@ -509,7 +509,7 @@ Connection Club sells because it answers problems the 2046 user actually has:
 
 - Outdoor dating is dangerous for much of the year in target megacities (IPCC 2023, SPM Figure SPM.3).
 - Cross-regional dating is carbon-prohibitive (Plucinska 2025; Dobruszkes, Mattioli, and Gozzoli 2024).
-- Compressed work schedules leave little time for in-person social formation.
+- Elder-care burden and long dating lifespans compress time available for partner search (UN WPP 2024; §1.4.1).
 - Conventional dating apps are exhausted as a category (Statista 2026, revenue-wall forecast).
 
 It is not a fantasy. It is a logical commercial response to the converging pressures the Compendium documents.
